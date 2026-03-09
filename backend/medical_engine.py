@@ -4,7 +4,7 @@ import numpy as np
 import re
 from sentence_transformers import SentenceTransformer
 
-from app.schemas import AskResponse, TopMatch
+from backend.schemas import AskResponse, TopMatch
 from src.safety_rules import (
     detect_emergency,
     detect_high_risk,
