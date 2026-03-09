@@ -10,5 +10,11 @@
   "water in lungs": "pulmonary edema",
   "clot in leg": "deep vein thrombosis",
   "dvt": "deep vein thrombosis",
-  "copd": "chronic obstructive pulmonary disease"
+  "copd": "chronic obstructive pulmonary disease",
+  "mi": "myocardial infarction",
+  "pe": "pulmonary embolism",
+  "uti": "urinary tract infection",
+  "gerd": "gastroesophageal reflux disease",
+  "cva": "stroke",
+  "fx": "fracture"
 }

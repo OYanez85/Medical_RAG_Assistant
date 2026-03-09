@@ -5,3 +5,4 @@ pydantic
 scikit-learn
 fastapi
 uvicorn[standard]
+rank-bm25

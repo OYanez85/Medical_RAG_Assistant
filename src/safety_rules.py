@@ -30,18 +30,20 @@ EMERGENCY_PATTERNS = [
     r"\bsepsis\b",
     r"\bconfusion\b",
     r"\bblue lips\b",
-    r"\bcyanosis\b",
+    r"\bcyanosis\b"
 ]
 
 HIGH_RISK_PATTERNS = [
     r"\bsuicidal\b",
     r"\bkill myself\b",
     r"\bself harm\b",
-    r"\boverdose\b",
+    r"\boverdose\b"
 ]
+
 
 def normalize(text: str) -> str:
     return re.sub(r"\s+", " ", text.lower().strip())
+
 
 def detect_emergency(text: str):
     text = normalize(text)
@@ -51,6 +53,7 @@ def detect_emergency(text: str):
             hits.append(pattern)
     return hits
 
+
 def detect_high_risk(text: str):
     text = normalize(text)
     hits = []
@@ -59,14 +62,28 @@ def detect_high_risk(text: str):
             hits.append(pattern)
     return hits
 
+
 def emergency_message():
     return (
         "This question includes symptoms or signs that may require urgent medical attention. "
         "Please contact emergency services or seek immediate medical care right away."
     )
 
+
 def low_confidence_message():
     return (
         "I do not have a reliable answer in my curated medical dataset, so I should not guess. "
         "Please rephrase the question or ask about a more specific condition."
     )
+
+
+def check_safety(text: str):
+    high_risk_hits = detect_high_risk(text)
+    if high_risk_hits:
+        return True, "high_risk"
+
+    emergency_hits = detect_emergency(text)
+    if emergency_hits:
+        return True, "emergency"
+
+    return False, None
