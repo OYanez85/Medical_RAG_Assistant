@@ -1,53 +1,59 @@
 import gradio as gr
 from backend.medical_engine import MedicalRAGEngine
+from backend.logger import log_query
 
 engine = MedicalRAGEngine()
 
 
-def ask_medical_rag(question: str):
-    result = engine.ask(question)
+def ask_medical_rag(message, history):
+    result = engine.ask(message)
 
-    top_matches_text = ""
+    details = []
+    details.append(f"**Detected task:** {result.task}")
+    details.append(f"**Confidence:** {result.confidence:.3f}")
+    details.append(f"**Matched question:** {result.matched_question or 'N/A'}")
+    details.append(f"**Safety flag:** {result.safety_flag}")
+    details.append(f"**Safety type:** {result.safety_type or 'none'}")
+
     if result.top_matches:
-        lines = []
-        for m in result.top_matches:
-            lines.append(
+        details.append("**Top matches:**")
+        for m in result.top_matches[:5]:
+            details.append(
                 f"- {m.instruction} | task={m.task} | adjusted={m.adjusted_score:.3f} | raw={m.raw_score:.3f}"
             )
-        top_matches_text = "\n".join(lines)
 
-    suggestions_text = "\n".join(result.suggestions) if result.suggestions else ""
+    if result.suggestions:
+        details.append("**Suggestions:**")
+        for s in result.suggestions:
+            details.append(f"- {s}")
 
-    return (
-        result.answer,
-        result.task,
-        f"{result.confidence:.3f}",
-        result.matched_question or "",
-        str(result.safety_flag),
-        result.safety_type or "",
-        top_matches_text,
-        suggestions_text,
-    )
+    details_text = "\n".join(details)
+    final_answer = f"{result.answer}\n\n---\n{details_text}"
+
+    log_query({
+        "question": result.question,
+        "normalized_question": result.normalized_question,
+        "task": result.task,
+        "safety_flag": result.safety_flag,
+        "safety_type": result.safety_type,
+        "confidence": result.confidence,
+        "matched_question": result.matched_question,
+        "answer": result.answer,
+        "suggestions": result.suggestions,
+        "source": "gradio_chat",
+    })
+
+    return final_answer
 
 
-demo = gr.Interface(
+demo = gr.ChatInterface(
     fn=ask_medical_rag,
-    inputs=gr.Textbox(
-        label="Ask a medical question",
-        placeholder="What is pneumonia?"
-    ),
-    outputs=[
-        gr.Textbox(label="Answer"),
-        gr.Textbox(label="Detected task"),
-        gr.Textbox(label="Confidence"),
-        gr.Textbox(label="Matched question"),
-        gr.Textbox(label="Safety flag"),
-        gr.Textbox(label="Safety type"),
-        gr.Textbox(label="Top matches"),
-        gr.Textbox(label="Suggestions"),
-    ],
     title="Medical RAG Assistant",
     description="A retrieval-first medical assistant with safety guardrails.",
+    textbox=gr.Textbox(
+        placeholder="Ask a medical question, e.g. What is pneumonia?",
+        label="Question"
+    ),
 )
 
 
