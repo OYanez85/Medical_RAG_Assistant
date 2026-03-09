@@ -1,14 +1,18 @@
 ---
-title: Medical Rag Assistant
-emoji: 👁
+title: Medical RAG Assistant
+emoji: 🩺
 colorFrom: blue
-colorTo: pink
+colorTo: green
 sdk: gradio
-sdk_version: 6.9.0
+sdk_version: 5.0.0
 app_file: app.py
 pinned: false
-license: mit
-short_description: A safety-aware retrieval-first medical assistant
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+# Medical RAG Assistant
+
+A retrieval-first medical assistant with:
+- semantic vector retrieval
+- task-aware matching
+- confidence-based refusal
+- emergency safety warnings

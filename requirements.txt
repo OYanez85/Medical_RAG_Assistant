@@ -1,0 +1,7 @@
+gradio
+sentence-transformers
+numpy
+pydantic
+scikit-learn
+fastapi
+uvicorn[standard]

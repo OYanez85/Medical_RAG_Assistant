@@ -3,7 +3,6 @@ from app.medical_engine import MedicalRAGEngine
 
 engine = MedicalRAGEngine()
 
-
 def ask_medical_rag(question: str):
     result = engine.ask(question)
 
@@ -29,13 +28,9 @@ def ask_medical_rag(question: str):
         suggestions_text,
     )
 
-
 demo = gr.Interface(
     fn=ask_medical_rag,
-    inputs=gr.Textbox(
-        label="Ask a medical question",
-        placeholder="What is pneumonia?"
-    ),
+    inputs=gr.Textbox(label="Ask a medical question", placeholder="What is pneumonia?"),
     outputs=[
         gr.Textbox(label="Answer"),
         gr.Textbox(label="Detected task"),
@@ -47,9 +42,8 @@ demo = gr.Interface(
         gr.Textbox(label="Suggestions"),
     ],
     title="Medical RAG Assistant",
-    description="A retrieval-first medical assistant with safety guardrails.",
+    description="A retrieval-first medical assistant with safety guardrails."
 )
-
 
 if __name__ == "__main__":
     demo.launch()
