@@ -1002,7 +1002,7 @@
   {
     "id": 112,
     "instruction": "What is glaucoma?",
-    "response": "Glaucoma is a group of eye diseases that damage the optic nerve and can lead to vision loss.",
+    "response": "Glaucoma is a group of eye disorders that damage the optic nerve, often associated with increased pressure inside the eye.",
     "task": "definition",
     "concepts": [
       "glaucoma"
@@ -1020,7 +1020,7 @@
   {
     "id": 114,
     "instruction": "What causes glaucoma?",
-    "response": "Glaucoma is associated with optic nerve damage, often related to elevated intraocular pressure.",
+    "response": "Glaucoma is commonly caused by impaired drainage of fluid inside the eye, leading to increased intraocular pressure and optic nerve damage.",
     "task": "causes",
     "concepts": [
       "glaucoma"
@@ -1029,7 +1029,7 @@
   {
     "id": 115,
     "instruction": "How is glaucoma treated?",
-    "response": "Glaucoma is treated with eye drops, laser procedures, or surgery to reduce eye pressure.",
+    "response": "Glaucoma is treated with eye drops, laser therapy, or surgery to lower pressure inside the eye and protect vision.",
     "task": "treatment",
     "concepts": [
       "glaucoma"
@@ -4179,7 +4179,7 @@
   {
     "id": 469,
     "instruction": "What is ORIF?",
-    "response": "ORIF, or open reduction and internal fixation, is a surgical procedure used to repair severe bone fractures by realigning the bone and securing it with plates, screws, or rods. It is done to restore proper alignment and stability. Risks include infection, bleeding, and delayed healing.",
+    "response": "ORIF stands for open reduction and internal fixation, a surgical procedure used to repair severe fractures by aligning the bone and securing it with hardware such as plates or screws.",
     "task": "definition",
     "concepts": [
       "ORIF"
@@ -4188,7 +4188,7 @@
   {
     "id": 470,
     "instruction": "What is laparoscopy?",
-    "response": "Laparoscopy is a minimally invasive surgical procedure in which a camera and instruments are inserted through small incisions in the abdomen to diagnose or treat internal conditions. It is done to reduce recovery time and surgical trauma. Risks include bleeding and organ injury.",
+    "response": "Laparoscopy is a minimally invasive surgical procedure that uses a camera and small instruments inserted through small abdominal incisions.",
     "task": "definition",
     "concepts": [
       "laparoscopy"
@@ -4197,7 +4197,7 @@
   {
     "id": 471,
     "instruction": "What is laparotomy?",
-    "response": "Laparotomy is an open surgical procedure involving a large incision in the abdomen to access internal organs. It is done for complex or emergency abdominal conditions. Recovery is longer and risks include infection and postoperative complications.",
+    "response": "Laparotomy is an open surgical procedure in which a large incision is made in the abdomen to access internal organs.",
     "task": "definition",
     "concepts": [
       "laparotomy"
@@ -4296,7 +4296,7 @@
   {
     "id": 482,
     "instruction": "What is a CT scan?",
-    "response": "A CT scan uses multiple X-ray images combined by computer to create detailed cross-sectional images of the body. It uses radiation.",
+    "response": "A CT scan is an imaging test that uses X-rays and computer processing to create detailed cross-sectional images of the body.",
     "task": "definition",
     "concepts": [
       "a CT scan"
@@ -4305,7 +4305,7 @@
   {
     "id": 483,
     "instruction": "What is an MRI?",
-    "response": "MRI, or magnetic resonance imaging, uses magnetic fields and radio waves to produce detailed images of soft tissues. It does not use radiation.",
+    "response": "MRI, or magnetic resonance imaging, is a test that uses magnetic fields and radio waves to create detailed images of organs and soft tissues.",
     "task": "definition",
     "concepts": [
       "an MRI"
@@ -4395,7 +4395,7 @@
   {
     "id": 493,
     "instruction": "What is aspirin?",
-    "response": "Aspirin is a medication used for pain relief, fever reduction, and prevention of blood clots. It may increase bleeding risk.",
+    "response": "Aspirin is a medication used to reduce pain, fever, inflammation, and in some cases to reduce the risk of blood clots.",
     "task": "definition",
     "concepts": [
       "aspirin"
@@ -4413,7 +4413,7 @@
   {
     "id": 495,
     "instruction": "What is metformin?",
-    "response": "Metformin is a medication used to treat type 2 diabetes by lowering blood sugar levels.",
+    "response": "Metformin is a medication used to lower blood sugar levels, mainly in people with type 2 diabetes.",
     "task": "definition",
     "concepts": [
       "metformin"
@@ -4422,7 +4422,7 @@
   {
     "id": 496,
     "instruction": "What is insulin?",
-    "response": "Insulin is a hormone and medication used to control blood sugar in people with diabetes.",
+    "response": "Insulin is a hormone and medication used to lower blood glucose levels, especially in diabetes.",
     "task": "definition",
     "concepts": [
       "insulin"
@@ -4652,10 +4652,752 @@
   {
     "id": 522,
     "instruction": "What is gestational diabetes?",
-    "response": "Gestational diabetes is high blood sugar that develops during pregnancy and usually resolves after delivery.",
+    "response": "Gestational diabetes is high blood sugar that develops during pregnancy and usually resolves after delivery.\n########################################\n### OPHTHALMOLOGY\n########################################",
     "task": "definition",
     "concepts": [
       "gestational diabetes"
+    ]
+  },
+  {
+    "id": 523,
+    "instruction": "Explain glaucoma in simple terms.",
+    "response": "Glaucoma is an eye condition that can slowly damage the nerve needed for vision.",
+    "task": "definition",
+    "concepts": [
+      "glaucoma"
+    ]
+  },
+  {
+    "id": 524,
+    "instruction": "What are the symptoms of glaucoma?",
+    "response": "Symptoms may include loss of peripheral vision, blurred vision, eye pain, halos around lights, and in acute cases nausea and headache.",
+    "task": "symptoms",
+    "concepts": [
+      "glaucoma"
+    ]
+  },
+  {
+    "id": 525,
+    "instruction": "What is macular degeneration?",
+    "response": "Macular degeneration is an eye disease that affects the macula, the central part of the retina responsible for sharp central vision.",
+    "task": "definition",
+    "concepts": [
+      "macular degeneration"
+    ]
+  },
+  {
+    "id": 526,
+    "instruction": "Explain macular degeneration in simple terms.",
+    "response": "Macular degeneration is an eye condition that damages central vision and makes reading or recognizing faces harder.",
+    "task": "definition",
+    "concepts": [
+      "macular degeneration"
+    ]
+  },
+  {
+    "id": 527,
+    "instruction": "What are the symptoms of macular degeneration?",
+    "response": "Symptoms include blurred central vision, distortion of straight lines, dark spots in central vision, and difficulty seeing fine detail.",
+    "task": "symptoms",
+    "concepts": [
+      "macular degeneration"
+    ]
+  },
+  {
+    "id": 528,
+    "instruction": "What causes macular degeneration?",
+    "response": "Macular degeneration is associated with aging, genetic factors, smoking, and damage to the retinal tissues of the macula.",
+    "task": "causes",
+    "concepts": [
+      "macular degeneration"
+    ]
+  },
+  {
+    "id": 529,
+    "instruction": "How is macular degeneration treated?",
+    "response": "Treatment depends on the type and may include eye injections, laser treatment, and nutritional support to slow progression.\n\n########################################\n### ORTHOPEDICS / TRAUMA\n########################################",
+    "task": "treatment",
+    "concepts": [
+      "macular degeneration"
+    ]
+  },
+  {
+    "id": 530,
+    "instruction": "What is a fracture?",
+    "response": "A fracture is a break or crack in a bone caused by trauma, stress, or disease weakening the bone.",
+    "task": "definition",
+    "concepts": [
+      "a fracture"
+    ]
+  },
+  {
+    "id": 531,
+    "instruction": "Explain fracture in simple terms.",
+    "response": "A fracture means a bone has broken or cracked.",
+    "task": "definition",
+    "concepts": [
+      "fracture"
+    ]
+  },
+  {
+    "id": 532,
+    "instruction": "What are the symptoms of a fracture?",
+    "response": "Symptoms include pain, swelling, bruising, deformity, and difficulty moving or bearing weight on the injured area.",
+    "task": "symptoms",
+    "concepts": [
+      "a fracture"
+    ]
+  },
+  {
+    "id": 533,
+    "instruction": "What causes a fracture?",
+    "response": "Fractures are caused by trauma such as falls or accidents, repetitive stress, or conditions like osteoporosis that weaken bone.",
+    "task": "causes",
+    "concepts": [
+      "a fracture"
+    ]
+  },
+  {
+    "id": 534,
+    "instruction": "How is a fracture treated?",
+    "response": "Treatment may include immobilization with a cast or splint, pain control, and sometimes surgery to realign and stabilize the bone.",
+    "task": "treatment",
+    "concepts": [
+      "a fracture"
+    ]
+  },
+  {
+    "id": 535,
+    "instruction": "What is a sprain?",
+    "response": "A sprain is an injury to a ligament caused by stretching or tearing, usually around a joint.",
+    "task": "definition",
+    "concepts": [
+      "a sprain"
+    ]
+  },
+  {
+    "id": 536,
+    "instruction": "Explain sprain in simple terms.",
+    "response": "A sprain is when the strong tissue around a joint gets stretched or torn.",
+    "task": "definition",
+    "concepts": [
+      "sprain"
+    ]
+  },
+  {
+    "id": 537,
+    "instruction": "What are the symptoms of a sprain?",
+    "response": "Symptoms include pain, swelling, bruising, limited movement, and joint instability.",
+    "task": "symptoms",
+    "concepts": [
+      "a sprain"
+    ]
+  },
+  {
+    "id": 538,
+    "instruction": "What causes a sprain?",
+    "response": "Sprains are commonly caused by twisting, falling, sudden impact, or overstretching a joint.",
+    "task": "causes",
+    "concepts": [
+      "a sprain"
+    ]
+  },
+  {
+    "id": 539,
+    "instruction": "How is a sprain treated?",
+    "response": "Treatment includes rest, ice, compression, elevation, pain relief, and in some cases physical therapy or bracing.\n\n########################################\n### SURGICAL PROCEDURES\n########################################",
+    "task": "treatment",
+    "concepts": [
+      "a sprain"
+    ]
+  },
+  {
+    "id": 540,
+    "instruction": "Explain ORIF in simple terms.",
+    "response": "ORIF is surgery to fix a broken bone using metal plates, screws, or rods.",
+    "task": "definition",
+    "concepts": [
+      "ORIF"
+    ]
+  },
+  {
+    "id": 541,
+    "instruction": "What are the symptoms of a condition requiring ORIF?",
+    "response": "Conditions requiring ORIF may involve severe pain, swelling, deformity, inability to move the limb, and an unstable fracture.",
+    "task": "symptoms",
+    "concepts": [
+      "a condition requiring ORIF"
+    ]
+  },
+  {
+    "id": 542,
+    "instruction": "What causes the need for ORIF?",
+    "response": "ORIF is needed when a fracture is severe, displaced, unstable, or unlikely to heal properly with casting alone.",
+    "task": "causes",
+    "concepts": [
+      "the need for ORIF"
+    ]
+  },
+  {
+    "id": 543,
+    "instruction": "How is ORIF treated?",
+    "response": "ORIF itself is the treatment, and recovery includes wound care, pain control, rehabilitation, and gradual return to movement.",
+    "task": "treatment",
+    "concepts": [
+      "ORIF"
+    ]
+  },
+  {
+    "id": 544,
+    "instruction": "Explain laparoscopy in simple terms.",
+    "response": "Laparoscopy is surgery done through small cuts using a camera instead of a large opening.",
+    "task": "definition",
+    "concepts": [
+      "laparoscopy"
+    ]
+  },
+  {
+    "id": 545,
+    "instruction": "What are the symptoms of a condition requiring laparoscopy?",
+    "response": "Conditions requiring laparoscopy may involve abdominal pain, pelvic pain, suspected internal bleeding, infertility investigation, or gallbladder disease.",
+    "task": "symptoms",
+    "concepts": [
+      "a condition requiring laparoscopy"
+    ]
+  },
+  {
+    "id": 546,
+    "instruction": "What causes the need for laparoscopy?",
+    "response": "Laparoscopy is used to diagnose or treat abdominal and pelvic conditions such as endometriosis, appendicitis, gallstones, or ovarian cysts.",
+    "task": "causes",
+    "concepts": [
+      "the need for laparoscopy"
+    ]
+  },
+  {
+    "id": 547,
+    "instruction": "How is laparoscopy treated?",
+    "response": "Laparoscopy is the procedure itself, and recovery usually involves pain control, wound care, and short-term activity limitation.",
+    "task": "treatment",
+    "concepts": [
+      "laparoscopy"
+    ]
+  },
+  {
+    "id": 548,
+    "instruction": "Explain laparotomy in simple terms.",
+    "response": "Laparotomy is open abdominal surgery done through a larger cut in the belly.",
+    "task": "definition",
+    "concepts": [
+      "laparotomy"
+    ]
+  },
+  {
+    "id": 549,
+    "instruction": "What are the symptoms of a condition requiring laparotomy?",
+    "response": "Conditions requiring laparotomy may involve severe abdominal pain, trauma, bowel obstruction, internal bleeding, or suspected perforation.",
+    "task": "symptoms",
+    "concepts": [
+      "a condition requiring laparotomy"
+    ]
+  },
+  {
+    "id": 550,
+    "instruction": "What causes the need for laparotomy?",
+    "response": "Laparotomy is needed when a condition requires direct open surgical access to the abdominal organs, especially in emergencies or complex cases.",
+    "task": "causes",
+    "concepts": [
+      "the need for laparotomy"
+    ]
+  },
+  {
+    "id": 551,
+    "instruction": "How is laparotomy treated?",
+    "response": "Laparotomy is the treatment procedure itself, followed by pain management, wound care, and recovery monitoring.\n\n########################################\n### DIAGNOSTICS / IMAGING\n########################################",
+    "task": "treatment",
+    "concepts": [
+      "laparotomy"
+    ]
+  },
+  {
+    "id": 552,
+    "instruction": "Explain CT scan in simple terms.",
+    "response": "A CT scan is a detailed X-ray test that shows slices of the inside of the body.",
+    "task": "definition",
+    "concepts": [
+      "CT scan"
+    ]
+  },
+  {
+    "id": 553,
+    "instruction": "What are the symptoms of a condition requiring a CT scan?",
+    "response": "Conditions requiring a CT scan may involve head injury, severe pain, suspected stroke, cancer evaluation, infection, or internal bleeding.",
+    "task": "symptoms",
+    "concepts": [
+      "a condition requiring a CT scan"
+    ]
+  },
+  {
+    "id": 554,
+    "instruction": "What causes the need for a CT scan?",
+    "response": "A CT scan is used when doctors need detailed internal images to investigate trauma, disease, or abnormal findings.",
+    "task": "causes",
+    "concepts": [
+      "the need for a CT scan"
+    ]
+  },
+  {
+    "id": 555,
+    "instruction": "How is a CT scan used in treatment?",
+    "response": "A CT scan supports diagnosis and treatment planning by helping identify the location and extent of disease or injury.",
+    "task": "other",
+    "concepts": []
+  },
+  {
+    "id": 556,
+    "instruction": "Explain MRI in simple terms.",
+    "response": "MRI is a scan that uses magnets to create detailed pictures of the inside of the body.",
+    "task": "definition",
+    "concepts": [
+      "MRI"
+    ]
+  },
+  {
+    "id": 557,
+    "instruction": "What are the symptoms of a condition requiring an MRI?",
+    "response": "Conditions requiring MRI may involve persistent pain, neurological symptoms, soft tissue injury, spinal problems, or tumor assessment.",
+    "task": "symptoms",
+    "concepts": [
+      "a condition requiring an MRI"
+    ]
+  },
+  {
+    "id": 558,
+    "instruction": "What causes the need for an MRI?",
+    "response": "MRI is used when detailed soft tissue imaging is needed, especially for the brain, spine, joints, and internal organs.",
+    "task": "causes",
+    "concepts": [
+      "the need for an MRI"
+    ]
+  },
+  {
+    "id": 559,
+    "instruction": "How is MRI used in treatment?",
+    "response": "MRI helps guide diagnosis and treatment planning by showing detailed images of tissues and structures without using ionizing radiation.\n\n########################################\n### LAB INTERPRETATION\n########################################",
+    "task": "other",
+    "concepts": []
+  },
+  {
+    "id": 560,
+    "instruction": "What is troponin?",
+    "response": "Troponin is a protein released into the blood when heart muscle is damaged, and it is commonly used to assess suspected heart attack.",
+    "task": "definition",
+    "concepts": [
+      "troponin"
+    ]
+  },
+  {
+    "id": 561,
+    "instruction": "Explain troponin in simple terms.",
+    "response": "Troponin is a blood test marker that can show whether the heart muscle has been injured.",
+    "task": "definition",
+    "concepts": [
+      "troponin"
+    ]
+  },
+  {
+    "id": 562,
+    "instruction": "What are the symptoms of high troponin?",
+    "response": "High troponin itself does not cause symptoms, but the underlying condition may cause chest pain, shortness of breath, sweating, or weakness.",
+    "task": "symptoms",
+    "concepts": [
+      "high troponin"
+    ]
+  },
+  {
+    "id": 563,
+    "instruction": "What causes high troponin?",
+    "response": "High troponin is commonly caused by heart muscle injury such as myocardial infarction, myocarditis, severe strain, or other cardiac conditions.",
+    "task": "causes",
+    "concepts": [
+      "high troponin"
+    ]
+  },
+  {
+    "id": 564,
+    "instruction": "How is high troponin treated?",
+    "response": "Treatment depends on the underlying cause and may include emergency cardiac care, monitoring, medications, or further diagnostic evaluation.",
+    "task": "treatment",
+    "concepts": [
+      "high troponin"
+    ]
+  },
+  {
+    "id": 565,
+    "instruction": "What is CRP?",
+    "response": "CRP, or C-reactive protein, is a blood test marker that rises in response to inflammation or infection.",
+    "task": "definition",
+    "concepts": [
+      "CRP"
+    ]
+  },
+  {
+    "id": 566,
+    "instruction": "Explain CRP in simple terms.",
+    "response": "CRP is a blood test that helps show whether there is inflammation in the body.",
+    "task": "definition",
+    "concepts": [
+      "CRP"
+    ]
+  },
+  {
+    "id": 567,
+    "instruction": "What are the symptoms of high CRP?",
+    "response": "High CRP itself does not cause symptoms, but the underlying condition may cause fever, pain, swelling, fatigue, or signs of infection.",
+    "task": "symptoms",
+    "concepts": [
+      "high CRP"
+    ]
+  },
+  {
+    "id": 568,
+    "instruction": "What causes high CRP?",
+    "response": "High CRP is caused by inflammation, infection, autoimmune disease, tissue injury, or other inflammatory conditions.",
+    "task": "causes",
+    "concepts": [
+      "high CRP"
+    ]
+  },
+  {
+    "id": 569,
+    "instruction": "How is high CRP treated?",
+    "response": "Treatment focuses on the underlying cause, such as infection, inflammation, or chronic disease, rather than the CRP value itself.",
+    "task": "treatment",
+    "concepts": [
+      "high CRP"
+    ]
+  },
+  {
+    "id": 570,
+    "instruction": "What is D-dimer?",
+    "response": "D-dimer is a blood test marker produced when blood clots are formed and broken down in the body.",
+    "task": "definition",
+    "concepts": [
+      "D-dimer"
+    ]
+  },
+  {
+    "id": 571,
+    "instruction": "Explain D-dimer in simple terms.",
+    "response": "D-dimer is a blood test that can suggest whether the body is forming and breaking down blood clots.",
+    "task": "definition",
+    "concepts": [
+      "D-dimer"
+    ]
+  },
+  {
+    "id": 572,
+    "instruction": "What are the symptoms of high D-dimer?",
+    "response": "High D-dimer itself does not cause symptoms, but conditions associated with it may cause chest pain, shortness of breath, leg swelling, or sudden illness.",
+    "task": "symptoms",
+    "concepts": [
+      "high D-dimer"
+    ]
+  },
+  {
+    "id": 573,
+    "instruction": "What causes high D-dimer?",
+    "response": "High D-dimer may be caused by blood clots, pulmonary embolism, deep vein thrombosis, recent surgery, infection, trauma, or inflammation.",
+    "task": "causes",
+    "concepts": [
+      "high D-dimer"
+    ]
+  },
+  {
+    "id": 574,
+    "instruction": "How is high D-dimer treated?",
+    "response": "Treatment depends on the cause and may include further imaging, anticoagulation, or management of the underlying condition.\n\n########################################\n### MEDICATIONS\n########################################",
+    "task": "treatment",
+    "concepts": [
+      "high D-dimer"
+    ]
+  },
+  {
+    "id": 575,
+    "instruction": "Explain aspirin in simple terms.",
+    "response": "Aspirin is a medicine used for pain and sometimes to help prevent dangerous blood clots.",
+    "task": "definition",
+    "concepts": [
+      "aspirin"
+    ]
+  },
+  {
+    "id": 576,
+    "instruction": "What are the symptoms of aspirin side effects?",
+    "response": "Aspirin side effects may include stomach pain, nausea, heartburn, bruising, or bleeding.",
+    "task": "symptoms",
+    "concepts": [
+      "aspirin side effects"
+    ]
+  },
+  {
+    "id": 577,
+    "instruction": "What causes aspirin to be prescribed?",
+    "response": "Aspirin may be prescribed for pain relief, inflammation, fever, or prevention of heart attack and stroke in selected patients.",
+    "task": "causes",
+    "concepts": [
+      "aspirin to be prescribed"
+    ]
+  },
+  {
+    "id": 578,
+    "instruction": "How is aspirin used in treatment?",
+    "response": "Aspirin is used as part of treatment depending on the condition, often for pain relief or as an antiplatelet medicine under medical guidance.",
+    "task": "other",
+    "concepts": []
+  },
+  {
+    "id": 579,
+    "instruction": "Explain metformin in simple terms.",
+    "response": "Metformin is a diabetes medicine that helps reduce high blood sugar.",
+    "task": "definition",
+    "concepts": [
+      "metformin"
+    ]
+  },
+  {
+    "id": 580,
+    "instruction": "What are the symptoms of metformin side effects?",
+    "response": "Metformin side effects may include nausea, diarrhea, abdominal discomfort, and less commonly weakness or serious metabolic problems.",
+    "task": "symptoms",
+    "concepts": [
+      "metformin side effects"
+    ]
+  },
+  {
+    "id": 581,
+    "instruction": "What causes metformin to be prescribed?",
+    "response": "Metformin is prescribed to help manage type 2 diabetes and improve blood sugar control.",
+    "task": "causes",
+    "concepts": [
+      "metformin to be prescribed"
+    ]
+  },
+  {
+    "id": 582,
+    "instruction": "How is metformin used in treatment?",
+    "response": "Metformin is used as part of diabetes treatment together with diet, exercise, and sometimes other medications.",
+    "task": "other",
+    "concepts": []
+  },
+  {
+    "id": 583,
+    "instruction": "Explain insulin in simple terms.",
+    "response": "Insulin is a medicine that helps move sugar from the blood into the body’s cells.",
+    "task": "definition",
+    "concepts": [
+      "insulin"
+    ]
+  },
+  {
+    "id": 584,
+    "instruction": "What are the symptoms of insulin side effects?",
+    "response": "Insulin side effects may include low blood sugar, sweating, shakiness, confusion, or weight gain.",
+    "task": "symptoms",
+    "concepts": [
+      "insulin side effects"
+    ]
+  },
+  {
+    "id": 585,
+    "instruction": "What causes insulin to be prescribed?",
+    "response": "Insulin is prescribed when the body does not produce enough insulin or cannot control blood sugar adequately without it.",
+    "task": "causes",
+    "concepts": [
+      "insulin to be prescribed"
+    ]
+  },
+  {
+    "id": 586,
+    "instruction": "How is insulin used in treatment?",
+    "response": "Insulin is used to control blood sugar in diabetes through carefully planned dosing and monitoring.\n\n########################################\n### OBSTETRICS & GYNECOLOGY EXPANSION\n########################################",
+    "task": "other",
+    "concepts": []
+  },
+  {
+    "id": 587,
+    "instruction": "What is an ectopic pregnancy?",
+    "response": "An ectopic pregnancy is a pregnancy that implants outside the uterus, most commonly in a fallopian tube, and it can become a medical emergency.",
+    "task": "definition",
+    "concepts": [
+      "an ectopic pregnancy"
+    ]
+  },
+  {
+    "id": 588,
+    "instruction": "Explain ectopic pregnancy in simple terms.",
+    "response": "An ectopic pregnancy is when a pregnancy grows in the wrong place, usually outside the womb.",
+    "task": "definition",
+    "concepts": [
+      "ectopic pregnancy"
+    ]
+  },
+  {
+    "id": 589,
+    "instruction": "What are the symptoms of ectopic pregnancy?",
+    "response": "Symptoms include abdominal or pelvic pain, vaginal bleeding, dizziness, shoulder pain, and in severe cases collapse from internal bleeding.",
+    "task": "symptoms",
+    "concepts": [
+      "ectopic pregnancy"
+    ]
+  },
+  {
+    "id": 590,
+    "instruction": "What causes ectopic pregnancy?",
+    "response": "Ectopic pregnancy is associated with damage or blockage of the fallopian tubes, prior pelvic infection, previous ectopic pregnancy, or other risk factors.",
+    "task": "causes",
+    "concepts": [
+      "ectopic pregnancy"
+    ]
+  },
+  {
+    "id": 591,
+    "instruction": "How is ectopic pregnancy treated?",
+    "response": "Treatment may include medication such as methotrexate or surgery, depending on the location, size, and severity of the condition.",
+    "task": "treatment",
+    "concepts": [
+      "ectopic pregnancy"
+    ]
+  },
+  {
+    "id": 592,
+    "instruction": "What are fibroids?",
+    "response": "Fibroids are noncancerous growths of the uterus made of muscle and fibrous tissue.",
+    "task": "other",
+    "concepts": []
+  },
+  {
+    "id": 593,
+    "instruction": "Explain fibroids in simple terms.",
+    "response": "Fibroids are common noncancerous lumps that grow in or around the uterus.",
+    "task": "definition",
+    "concepts": [
+      "fibroids"
+    ]
+  },
+  {
+    "id": 594,
+    "instruction": "What are the symptoms of fibroids?",
+    "response": "Symptoms may include heavy menstrual bleeding, pelvic pressure, abdominal swelling, pain, or urinary frequency.",
+    "task": "symptoms",
+    "concepts": [
+      "fibroids"
+    ]
+  },
+  {
+    "id": 595,
+    "instruction": "What causes fibroids?",
+    "response": "The exact cause is not fully known, but fibroids are influenced by hormones such as estrogen and genetic factors.",
+    "task": "causes",
+    "concepts": [
+      "fibroids"
+    ]
+  },
+  {
+    "id": 596,
+    "instruction": "How are fibroids treated?",
+    "response": "Treatment may include observation, medications, minimally invasive procedures, or surgery depending on symptoms and severity.",
+    "task": "other",
+    "concepts": []
+  },
+  {
+    "id": 597,
+    "instruction": "What is miscarriage?",
+    "response": "Miscarriage is the spontaneous loss of a pregnancy before the fetus is viable outside the uterus.",
+    "task": "definition",
+    "concepts": [
+      "miscarriage"
+    ]
+  },
+  {
+    "id": 598,
+    "instruction": "Explain miscarriage in simple terms.",
+    "response": "Miscarriage means a pregnancy ends naturally earlier than expected.",
+    "task": "definition",
+    "concepts": [
+      "miscarriage"
+    ]
+  },
+  {
+    "id": 599,
+    "instruction": "What are the symptoms of miscarriage?",
+    "response": "Symptoms may include vaginal bleeding, cramping, abdominal pain, and passage of tissue.",
+    "task": "symptoms",
+    "concepts": [
+      "miscarriage"
+    ]
+  },
+  {
+    "id": 600,
+    "instruction": "What causes miscarriage?",
+    "response": "Miscarriage is commonly caused by chromosomal abnormalities, but it may also be associated with hormonal, structural, or medical factors.",
+    "task": "causes",
+    "concepts": [
+      "miscarriage"
+    ]
+  },
+  {
+    "id": 601,
+    "instruction": "How is miscarriage treated?",
+    "response": "Treatment may include observation, medication, or procedures to remove remaining tissue, depending on the situation.\n\n########################################\n### EMERGENCY PRESENTATIONS\n########################################",
+    "task": "treatment",
+    "concepts": [
+      "miscarriage"
+    ]
+  },
+  {
+    "id": 602,
+    "instruction": "What is an emergency presentation?",
+    "response": "An emergency presentation is a set of symptoms or signs that may indicate a serious condition requiring urgent medical assessment.",
+    "task": "definition",
+    "concepts": [
+      "an emergency presentation"
+    ]
+  },
+  {
+    "id": 603,
+    "instruction": "Explain emergency presentation in simple terms.",
+    "response": "An emergency presentation means symptoms are serious enough that urgent medical help may be needed.",
+    "task": "definition",
+    "concepts": [
+      "emergency presentation"
+    ]
+  },
+  {
+    "id": 604,
+    "instruction": "What are the symptoms of an emergency presentation?",
+    "response": "Symptoms may include chest pain, severe shortness of breath, loss of consciousness, stroke-like symptoms, severe bleeding, or sudden severe pain.",
+    "task": "symptoms",
+    "concepts": [
+      "an emergency presentation"
+    ]
+  },
+  {
+    "id": 605,
+    "instruction": "What causes an emergency presentation?",
+    "response": "Emergency presentations can be caused by serious conditions such as heart attack, stroke, sepsis, pulmonary embolism, trauma, or internal bleeding.",
+    "task": "causes",
+    "concepts": [
+      "an emergency presentation"
+    ]
+  },
+  {
+    "id": 606,
+    "instruction": "How is an emergency presentation treated?",
+    "response": "Emergency presentations are treated by urgent medical evaluation, stabilization, and condition-specific emergency care.",
+    "task": "treatment",
+    "concepts": [
+      "an emergency presentation"
     ]
   }
 ]
