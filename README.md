@@ -2,7 +2,7 @@
 
 > A hybrid **Retrieval-Augmented Generation (RAG) + LoRA fine-tuned medical LLM** designed for safe, structured, and context-aware medical question answering.
 
----
+---```
 
 ## 🚀 Live Demo
 
@@ -180,14 +180,17 @@ python app.py
 ```
 
 📈 Roadmap
+```
  Hybrid RAG + LoRA response synthesis
  Citation-aware generation
  PubMed integration (RAG upgrade)
  Better evaluation pipeline
  Reduced repetition + improved reasoning
  Clinical task classification refinement
-💼 Portfolio Value
+```
 
+💼 Portfolio Value
+```
 This project demonstrates:
 
 End-to-end LLM system design
@@ -196,6 +199,8 @@ LoRA fine-tuning pipeline
 Deployment on Hugging Face Spaces
 Real-world evaluation and iteration
 Safety-aware AI engineering
+```
+
 🤝 Author
 
 Oscar Yáñez-Feijoo
