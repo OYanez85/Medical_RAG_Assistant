@@ -1,4 +1,4 @@
-# 🩺 Medical RAG Assistant
+# 🩺 Medical RAG Assistant + LoRA fine-tuned medical LLM
 
 > A hybrid **Retrieval-Augmented Generation (RAG) + LoRA fine-tuned medical LLM** designed for safe, structured, and context-aware medical question answering.
 
