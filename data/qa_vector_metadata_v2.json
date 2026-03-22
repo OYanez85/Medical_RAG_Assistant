@@ -1,132 +1,3037 @@
 [
   {
-    "question": "What are the complications of pneumonia?",
-    "answer": "Complications of pneumonia may include respiratory failure, pleural effusion, empyema, sepsis, lung abscess, and worsening of underlying medical conditions.",
+    "question": "What is asthma?",
+    "answer": "Asthma is a chronic inflammatory disease of the airways characterized by variable airflow obstruction and respiratory symptoms.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of asthma?",
+    "answer": "Symptoms of asthma include wheezing, cough, chest tightness, and shortness of breath.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes asthma?",
+    "answer": "Asthma is caused by a combination of genetic predisposition and environmental triggers such as allergens, respiratory infections, exercise, cold air, or air pollution.",
+    "task": "causes"
+  },
+  {
+    "question": "How is asthma treated?",
+    "answer": "Asthma is treated with inhaled bronchodilators to relieve symptoms and inhaled corticosteroids to reduce airway inflammation.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is pneumonia?",
+    "answer": "Pneumonia is an infection of the lungs caused by bacteria, viruses, or fungi that leads to inflammation of the air sacs.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of pneumonia?",
+    "answer": "Symptoms of pneumonia include fever, cough, sputum production, chest pain, and shortness of breath.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes pneumonia?",
+    "answer": "Pneumonia is caused by infectious microorganisms such as bacteria, viruses, or fungi that invade the lung tissue.",
+    "task": "causes"
+  },
+  {
+    "question": "How is pneumonia treated?",
+    "answer": "Treatment depends on the cause and may include antibiotics for bacterial pneumonia, antiviral medications, supportive care, and oxygen therapy.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is bronchitis?",
+    "answer": "Bronchitis is inflammation of the bronchial tubes that commonly causes cough, mucus production, and chest discomfort.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of bronchitis?",
+    "answer": "Symptoms of bronchitis include cough, mucus production, fatigue, and mild shortness of breath.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes bronchitis?",
+    "answer": "Bronchitis may be caused by viral infections, bacterial infections, smoking, or airway irritants.",
+    "task": "causes"
+  },
+  {
+    "question": "How is bronchitis treated?",
+    "answer": "Treatment of bronchitis may include rest, hydration, symptom relief, and in some cases bronchodilators or antibiotics.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is chronic obstructive pulmonary disease?",
+    "answer": "Chronic obstructive pulmonary disease is a progressive lung disease characterized by persistent airflow limitation and breathing difficulty.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of chronic obstructive pulmonary disease?",
+    "answer": "Symptoms of chronic obstructive pulmonary disease include chronic cough, sputum production, wheezing, and dyspnea.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes chronic obstructive pulmonary disease?",
+    "answer": "The main cause of COPD is long-term exposure to irritants, especially cigarette smoke.",
+    "task": "causes"
+  },
+  {
+    "question": "How is chronic obstructive pulmonary disease treated?",
+    "answer": "Treatment includes smoking cessation, inhaled bronchodilators, corticosteroids, pulmonary rehabilitation, and oxygen therapy in advanced cases.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is tuberculosis?",
+    "answer": "Tuberculosis is a contagious bacterial infection caused by Mycobacterium tuberculosis that primarily affects the lungs.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of tuberculosis?",
+    "answer": "Symptoms of tuberculosis include chronic cough, fever, weight loss, night sweats, and fatigue.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes tuberculosis?",
+    "answer": "Tuberculosis is caused by infection with the bacterium Mycobacterium tuberculosis, transmitted through airborne droplets.",
+    "task": "causes"
+  },
+  {
+    "question": "How is tuberculosis treated?",
+    "answer": "Tuberculosis is treated with a combination of antibiotics taken for several months, typically including isoniazid and rifampin.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is hypertension?",
+    "answer": "Hypertension is a chronic medical condition in which blood pressure remains persistently elevated above normal levels, increasing the risk of heart disease, stroke, and kidney damage.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of hypertension?",
+    "answer": "Hypertension may be asymptomatic, but some patients report headaches, dizziness, or blurred vision.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes hypertension?",
+    "answer": "Hypertension may result from genetic factors, obesity, high salt intake, sedentary lifestyle, chronic stress, kidney disease, or hormonal disorders.",
+    "task": "causes"
+  },
+  {
+    "question": "How is hypertension treated?",
+    "answer": "Hypertension is treated with lifestyle changes such as diet and exercise, along with medications including ACE inhibitors, beta blockers, diuretics, or calcium channel blockers.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is myocardial infarction?",
+    "answer": "Myocardial infarction is the medical term for a heart attack, occurring when blood flow to part of the heart muscle is blocked.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of myocardial infarction?",
+    "answer": "Symptoms of myocardial infarction include chest pain, sweating, nausea, shortness of breath, and pain radiating to the arm or jaw.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes myocardial infarction?",
+    "answer": "It is usually caused by a blood clot forming on a ruptured atherosclerotic plaque in a coronary artery.",
+    "task": "causes"
+  },
+  {
+    "question": "How is myocardial infarction treated?",
+    "answer": "Treatment includes emergency medications, clot-dissolving drugs, angioplasty with stent placement, and long-term cardiac therapy.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is tachycardia?",
+    "answer": "Tachycardia is a heart rate that is faster than normal at rest.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of tachycardia?",
+    "answer": "Symptoms of tachycardia may include palpitations, dizziness, chest discomfort, and shortness of breath.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes tachycardia?",
+    "answer": "Tachycardia may be caused by fever, anxiety, arrhythmia, anemia, hyperthyroidism, or stimulant use.",
+    "task": "causes"
+  },
+  {
+    "question": "How is tachycardia treated?",
+    "answer": "Treatment of tachycardia depends on the cause and may include medications, vagal maneuvers, or treatment of the underlying condition.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is bradycardia?",
+    "answer": "Bradycardia is a heart rate that is slower than normal at rest.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of bradycardia?",
+    "answer": "Symptoms of bradycardia may include fatigue, dizziness, fainting, or exercise intolerance.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes bradycardia?",
+    "answer": "Bradycardia may be caused by conduction system disease, medications, hypothyroidism, or high vagal tone.",
+    "task": "causes"
+  },
+  {
+    "question": "How is bradycardia treated?",
+    "answer": "Treatment of bradycardia depends on severity and cause and may include medication adjustment or pacemaker placement.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is heart failure?",
+    "answer": "Heart failure is a condition in which the heart cannot pump blood effectively to meet the body's needs.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of heart failure?",
+    "answer": "Symptoms of heart failure include shortness of breath, fatigue, leg swelling, and reduced exercise tolerance.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes heart failure?",
+    "answer": "Heart failure may result from coronary artery disease, hypertension, previous heart attack, heart valve disease, or cardiomyopathy.",
+    "task": "causes"
+  },
+  {
+    "question": "How is heart failure treated?",
+    "answer": "Treatment includes medications, lifestyle changes, implanted cardiac devices, and in severe cases heart transplantation.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is diabetes mellitus?",
+    "answer": "Diabetes mellitus is a chronic metabolic disorder characterized by elevated blood glucose levels due to impaired insulin production, insulin action, or both.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of diabetes mellitus?",
+    "answer": "Symptoms of diabetes mellitus include increased thirst, frequent urination, fatigue, and unexplained weight loss.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes diabetes mellitus?",
+    "answer": "Diabetes may be caused by autoimmune destruction of insulin-producing cells (type 1), insulin resistance (type 2), genetic factors, obesity, or lifestyle factors.",
+    "task": "causes"
+  },
+  {
+    "question": "How is diabetes mellitus treated?",
+    "answer": "Treatment includes lifestyle changes, blood glucose monitoring, oral medications, and insulin therapy depending on the type of diabetes.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is hypothyroidism?",
+    "answer": "Hypothyroidism is a condition in which the thyroid gland does not produce enough thyroid hormones.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of hypothyroidism?",
+    "answer": "Symptoms of hypothyroidism include fatigue, weight gain, cold intolerance, dry skin, and constipation.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes hypothyroidism?",
+    "answer": "Hypothyroidism may be caused by autoimmune disease such as Hashimoto's thyroiditis, thyroid surgery, radiation therapy, or iodine deficiency.",
+    "task": "causes"
+  },
+  {
+    "question": "How is hypothyroidism treated?",
+    "answer": "Hypothyroidism is treated with daily thyroid hormone replacement therapy.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is hyperlipidemia?",
+    "answer": "Hyperlipidemia is a condition characterized by elevated levels of lipids such as cholesterol and triglycerides in the blood.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of hyperlipidemia?",
+    "answer": "Hyperlipidemia often has no symptoms and is usually detected through blood testing.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes hyperlipidemia?",
+    "answer": "Causes include genetic factors, unhealthy diet, obesity, sedentary lifestyle, and certain medical conditions.",
+    "task": "causes"
+  },
+  {
+    "question": "How is hyperlipidemia treated?",
+    "answer": "Treatment includes lifestyle changes and medications such as statins to lower cholesterol levels.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is obesity?",
+    "answer": "Obesity is a condition of excessive body fat accumulation that increases the risk of many health problems.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes obesity?",
+    "answer": "Obesity may result from excess calorie intake, low physical activity, genetics, and hormonal or environmental factors.",
+    "task": "causes"
+  },
+  {
+    "question": "What are complications of obesity?",
+    "answer": "Complications of obesity include diabetes, hypertension, heart disease, sleep apnea, and joint problems.",
     "task": "complications"
   },
   {
-    "question": "What are the complications of pulmonary embolism?",
-    "answer": "Complications of pulmonary embolism may include right heart strain, respiratory failure, shock, recurrent embolism, pulmonary hypertension, and sudden death in severe cases.",
-    "task": "complications"
+    "question": "How is obesity treated?",
+    "answer": "Obesity is treated with dietary change, exercise, behavior modification, medications, and in some cases bariatric surgery.",
+    "task": "treatment"
   },
   {
-    "question": "What are the complications of hypertension?",
-    "answer": "Complications of hypertension may include stroke, heart failure, kidney damage, coronary artery disease, vision loss, and peripheral vascular disease.",
-    "task": "complications"
+    "question": "What is stroke?",
+    "answer": "Stroke is a medical emergency that occurs when blood flow to part of the brain is interrupted or reduced, leading to brain tissue damage.",
+    "task": "definition"
   },
   {
-    "question": "What are the complications of hypotension?",
-    "answer": "Complications of hypotension may include dizziness, fainting, falls, shock, reduced blood flow to organs, and organ damage in severe cases.",
-    "task": "complications"
+    "question": "What are symptoms of stroke?",
+    "answer": "Symptoms of stroke include sudden weakness, facial droop, speech difficulty, vision changes, and loss of coordination.",
+    "task": "symptoms"
   },
   {
-    "question": "What are the complications of myocardial infarction?",
-    "answer": "Complications of myocardial infarction may include arrhythmias, heart failure, cardiogenic shock, recurrent ischemia, cardiac rupture, and sudden cardiac death.",
-    "task": "complications"
+    "question": "What causes stroke?",
+    "answer": "Stroke may be caused by blockage of a brain artery (ischemic stroke) or rupture of a blood vessel in the brain (hemorrhagic stroke).",
+    "task": "causes"
   },
   {
-    "question": "What are the complications of heart failure?",
-    "answer": "Complications of heart failure may include fluid overload, kidney dysfunction, arrhythmias, liver congestion, thromboembolism, and reduced exercise tolerance.",
-    "task": "complications"
+    "question": "How is stroke treated?",
+    "answer": "Treatment depends on the type of stroke and may include clot-dissolving medication, mechanical thrombectomy, surgery, and supportive care.",
+    "task": "treatment"
   },
   {
-    "question": "What are the complications of stroke?",
-    "answer": "Complications of stroke may include paralysis, speech problems, swallowing difficulty, aspiration pneumonia, seizures, depression, and long-term disability.",
-    "task": "complications"
+    "question": "What is epilepsy?",
+    "answer": "Epilepsy is a neurological disorder characterized by recurrent unprovoked seizures.",
+    "task": "definition"
   },
   {
-    "question": "What are the complications of diabetes?",
-    "answer": "Complications of diabetes may include kidney disease, nerve damage, eye disease, cardiovascular disease, foot ulcers, poor wound healing, and infections.",
-    "task": "complications"
+    "question": "What are symptoms of epilepsy?",
+    "answer": "Symptoms of epilepsy include seizures, staring spells, loss of consciousness, or abnormal movements.",
+    "task": "symptoms"
   },
   {
-    "question": "What are the complications of chronic obstructive pulmonary disease?",
-    "answer": "Complications of chronic obstructive pulmonary disease may include respiratory failure, recurrent lung infections, pulmonary hypertension, right heart strain, and reduced quality of life.",
-    "task": "complications"
+    "question": "What causes epilepsy?",
+    "answer": "Epilepsy may result from genetic factors, brain injury, infection, stroke, or structural brain abnormalities.",
+    "task": "causes"
   },
   {
-    "question": "What are the complications of asthma?",
-    "answer": "Complications of asthma may include severe asthma attacks, respiratory failure, reduced oxygen levels, hospitalization, and airway remodeling in poorly controlled disease.",
-    "task": "complications"
+    "question": "How is epilepsy treated?",
+    "answer": "Treatment includes anti-seizure medications, lifestyle management, and sometimes surgery.",
+    "task": "treatment"
   },
   {
-    "question": "What are the complications of pneumothorax?",
-    "answer": "Complications of pneumothorax may include tension pneumothorax, respiratory distress, recurrence, low oxygen levels, and cardiovascular compromise in severe cases.",
-    "task": "complications"
+    "question": "What is migraine?",
+    "answer": "Migraine is a neurological disorder characterized by recurrent headache attacks, often accompanied by nausea and light sensitivity.",
+    "task": "definition"
   },
   {
-    "question": "What are the complications of tuberculosis?",
-    "answer": "Complications of tuberculosis may include lung destruction, hemoptysis, pleural effusion, meningitis, spinal involvement, and spread of infection to other organs.",
-    "task": "complications"
+    "question": "What are symptoms of migraine?",
+    "answer": "Symptoms of migraine include throbbing headache, nausea, vomiting, and sensitivity to light or sound.",
+    "task": "symptoms"
   },
   {
-    "question": "What are the complications of dermatitis?",
-    "answer": "Complications of dermatitis may include skin infection, thickened skin, sleep disturbance, chronic itching, and reduced quality of life.",
-    "task": "complications"
+    "question": "What triggers migraine?",
+    "answer": "Migraine may be triggered by stress, hormonal changes, sleep disruption, certain foods, or sensory stimuli.",
+    "task": "definition"
   },
   {
-    "question": "What are the complications of obesity?",
-    "answer": "Complications of obesity may include type 2 diabetes, hypertension, cardiovascular disease, sleep apnea, fatty liver disease, and joint problems.",
-    "task": "complications"
+    "question": "How is migraine treated?",
+    "answer": "Migraine is treated with pain relief medications, specific anti-migraine drugs, and trigger avoidance.",
+    "task": "treatment"
   },
   {
-    "question": "What are the complications of appendicitis?",
-    "answer": "Complications of appendicitis may include perforation, peritonitis, abscess formation, sepsis, and bowel obstruction.",
-    "task": "complications"
+    "question": "What is Parkinson disease?",
+    "answer": "Parkinson disease is a neurodegenerative disorder characterized by tremor, rigidity, slowness of movement, and postural instability.",
+    "task": "definition"
   },
   {
-    "question": "What are the complications of cholecystitis?",
-    "answer": "Complications of cholecystitis may include gallbladder perforation, abscess, gangrene, peritonitis, and sepsis.",
-    "task": "complications"
+    "question": "What are symptoms of Parkinson disease?",
+    "answer": "Symptoms of Parkinson disease include tremor, bradykinesia, rigidity, and balance difficulties.",
+    "task": "symptoms"
   },
   {
-    "question": "What are the complications of pancreatitis?",
-    "answer": "Complications of pancreatitis may include pseudocyst formation, necrosis, infection, shock, respiratory failure, and multi-organ failure.",
-    "task": "complications"
+    "question": "What causes Parkinson disease?",
+    "answer": "Parkinson disease is associated with degeneration of dopamine-producing neurons in the brain.",
+    "task": "causes"
   },
   {
-    "question": "What are the complications of meningitis?",
-    "answer": "Complications of meningitis may include seizures, hearing loss, cognitive impairment, shock, brain injury, and death in severe cases.",
-    "task": "complications"
+    "question": "How is Parkinson disease treated?",
+    "answer": "Parkinson disease is treated with dopaminergic medications, rehabilitation, and sometimes surgical intervention.",
+    "task": "treatment"
   },
   {
-    "question": "What are the complications of sepsis?",
-    "answer": "Complications of sepsis may include shock, multi-organ failure, disseminated intravascular coagulation, acute kidney injury, respiratory failure, and death.",
-    "task": "complications"
+    "question": "What is gastric ulcer?",
+    "answer": "A gastric ulcer is an open sore that develops on the lining of the stomach.",
+    "task": "definition"
   },
   {
-    "question": "What are the complications of deep vein thrombosis?",
-    "answer": "Complications of deep vein thrombosis may include pulmonary embolism, post-thrombotic syndrome, recurrent thrombosis, and chronic leg swelling or pain.",
-    "task": "complications"
+    "question": "What are symptoms of gastric ulcer?",
+    "answer": "Symptoms of gastric ulcer may include upper abdominal pain, nausea, bloating, and indigestion.",
+    "task": "symptoms"
   },
   {
-    "question": "What are the complications of atrial fibrillation?",
-    "answer": "Complications of atrial fibrillation may include stroke, heart failure, thromboembolism, reduced exercise tolerance, and hemodynamic instability in severe cases.",
-    "task": "complications"
+    "question": "What causes gastric ulcer?",
+    "answer": "Gastric ulcers are commonly caused by Helicobacter pylori infection or long-term use of nonsteroidal anti-inflammatory drugs.",
+    "task": "causes"
   },
   {
-    "question": "What are the complications of chronic kidney disease?",
-    "answer": "Complications of chronic kidney disease may include fluid overload, electrolyte imbalance, anemia, bone disease, cardiovascular disease, and progression to kidney failure.",
-    "task": "complications"
+    "question": "How is gastric ulcer treated?",
+    "answer": "Treatment includes proton pump inhibitors, antibiotics for Helicobacter pylori, and avoidance of irritating medications.",
+    "task": "treatment"
   },
   {
-    "question": "What are the complications of liver cirrhosis?",
-    "answer": "Complications of liver cirrhosis may include ascites, variceal bleeding, hepatic encephalopathy, spontaneous bacterial peritonitis, kidney dysfunction, and liver failure.",
-    "task": "complications"
+    "question": "What is gastroesophageal reflux disease?",
+    "answer": "Gastroesophageal reflux disease is a condition in which stomach contents repeatedly flow back into the esophagus.",
+    "task": "definition"
   },
   {
-    "question": "What are the complications of gastroenteritis?",
-    "answer": "Complications of gastroenteritis may include dehydration, electrolyte imbalance, kidney injury, malnutrition, and shock in severe cases.",
-    "task": "complications"
+    "question": "What are symptoms of gastroesophageal reflux disease?",
+    "answer": "Symptoms of gastroesophageal reflux disease include heartburn, regurgitation, chest discomfort, and sour taste.",
+    "task": "symptoms"
   },
   {
-    "question": "What are the complications of influenza?",
-    "answer": "Complications of influenza may include pneumonia, dehydration, worsening of chronic medical conditions, respiratory failure, myocarditis, and secondary bacterial infection.",
-    "task": "complications"
+    "question": "What causes gastroesophageal reflux disease?",
+    "answer": "Gastroesophageal reflux disease may be caused by weakness of the lower esophageal sphincter, obesity, or hiatal hernia.",
+    "task": "causes"
   },
   {
-    "question": "What are the complications of COVID-19?",
-    "answer": "Complications of COVID-19 may include pneumonia, respiratory failure, blood clots, myocarditis, long COVID symptoms, multi-organ injury, and death in severe cases.",
-    "task": "complications"
+    "question": "How is gastroesophageal reflux disease treated?",
+    "answer": "Gastroesophageal reflux disease is treated with diet changes, weight reduction, acid suppression, and sometimes surgery.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is hepatitis?",
+    "answer": "Hepatitis is inflammation of the liver, often caused by viral infection.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of hepatitis?",
+    "answer": "Symptoms of hepatitis may include fatigue, nausea, abdominal pain, jaundice, and dark urine.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes hepatitis?",
+    "answer": "Hepatitis may be caused by viruses, alcohol abuse, medications, or autoimmune disorders.",
+    "task": "causes"
+  },
+  {
+    "question": "How is hepatitis treated?",
+    "answer": "Treatment depends on the cause and may include antiviral medications, lifestyle changes, or supportive care.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is anemia?",
+    "answer": "Anemia is a condition in which there are not enough healthy red blood cells or hemoglobin to carry adequate oxygen to the body's tissues.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of anemia?",
+    "answer": "Symptoms of anemia include fatigue, pallor, weakness, dizziness, and shortness of breath.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes anemia?",
+    "answer": "Anemia may be caused by blood loss, iron deficiency, vitamin B12 deficiency, chronic disease, bone marrow disorders, or genetic conditions.",
+    "task": "causes"
+  },
+  {
+    "question": "How is anemia treated?",
+    "answer": "Treatment depends on the cause and may include iron supplements, vitamin replacement, medications, or blood transfusion.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is leukemia?",
+    "answer": "Leukemia is a type of cancer that affects blood-forming tissues, including the bone marrow, leading to abnormal white blood cell production.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of leukemia?",
+    "answer": "Symptoms of leukemia may include fatigue, fever, easy bruising, infections, and weight loss.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes leukemia?",
+    "answer": "Leukemia results from malignant transformation of blood-forming cells, influenced by genetic and environmental factors.",
+    "task": "causes"
+  },
+  {
+    "question": "How is leukemia treated?",
+    "answer": "Treatment may include chemotherapy, radiation therapy, targeted therapy, immunotherapy, or stem cell transplantation.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is anxiety?",
+    "answer": "Anxiety is a psychological and physiological state characterized by excessive worry, tension, and autonomic arousal.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of anxiety?",
+    "answer": "Symptoms of anxiety may include restlessness, rapid heartbeat, sweating, difficulty concentrating, and sleep disturbance.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes anxiety?",
+    "answer": "Anxiety may be influenced by stress, genetics, trauma, medical illness, or substance use.",
+    "task": "causes"
+  },
+  {
+    "question": "How is anxiety treated?",
+    "answer": "Anxiety is treated with psychotherapy, lifestyle strategies, and sometimes medications.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is depression?",
+    "answer": "Depression is a mood disorder characterized by persistent sadness, loss of interest, and impaired daily functioning.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of depression?",
+    "answer": "Symptoms of depression include low mood, loss of interest, fatigue, sleep changes, and feelings of hopelessness.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes depression?",
+    "answer": "Depression may be caused by a combination of biological, psychological, and social factors.",
+    "task": "causes"
+  },
+  {
+    "question": "How is depression treated?",
+    "answer": "Depression is treated with psychotherapy, antidepressant medication, and supportive lifestyle measures.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is dermatitis?",
+    "answer": "Dermatitis is a general term for inflammation of the skin that causes redness, swelling, and irritation.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of dermatitis?",
+    "answer": "Symptoms of dermatitis include itching, redness, dryness, scaling, and skin irritation.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes dermatitis?",
+    "answer": "Dermatitis may be caused by allergens, irritants, infections, or autoimmune reactions.",
+    "task": "causes"
+  },
+  {
+    "question": "How is dermatitis treated?",
+    "answer": "Treatment includes avoiding triggers, topical corticosteroids, antihistamines, and proper skin care.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is psoriasis?",
+    "answer": "Psoriasis is a chronic autoimmune skin disorder that causes rapid skin cell turnover, leading to thick, scaly plaques.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of psoriasis?",
+    "answer": "Symptoms of psoriasis include red plaques, silvery scale, itching, and skin irritation.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes psoriasis?",
+    "answer": "Psoriasis is caused by an overactive immune response that speeds up skin cell production.",
+    "task": "causes"
+  },
+  {
+    "question": "How is psoriasis treated?",
+    "answer": "Treatment includes topical therapies, phototherapy, systemic medications, and biologic agents.",
+    "task": "treatment"
+  },
+  {
+    "question": "What are cataracts?",
+    "answer": "Cataracts are opacities of the eye lens that can cause blurred vision, glare, and reduced visual acuity.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of cataracts?",
+    "answer": "Symptoms of cataracts include blurred vision, glare, reduced night vision, and faded color perception.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes cataracts?",
+    "answer": "Cataracts may be caused by aging, diabetes, trauma, steroid use, or eye disease.",
+    "task": "causes"
+  },
+  {
+    "question": "How are cataracts treated?",
+    "answer": "Cataracts are treated with surgical removal of the cloudy lens and lens replacement.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is glaucoma?",
+    "answer": "Glaucoma is a group of eye disorders that damage the optic nerve, often associated with increased pressure inside the eye.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of glaucoma?",
+    "answer": "Glaucoma may be asymptomatic early, but can lead to visual field loss and vision impairment.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes glaucoma?",
+    "answer": "Glaucoma is commonly caused by impaired drainage of fluid inside the eye, leading to increased intraocular pressure and optic nerve damage.",
+    "task": "causes"
+  },
+  {
+    "question": "How is glaucoma treated?",
+    "answer": "Glaucoma is treated with eye drops, laser therapy, or surgery to lower pressure inside the eye and protect vision.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is influenza?",
+    "answer": "Influenza is a viral respiratory infection that commonly causes fever, cough, body aches, and fatigue.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of influenza?",
+    "answer": "Symptoms of influenza include fever, cough, sore throat, body aches, fatigue, and headache.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes influenza?",
+    "answer": "Influenza is caused by influenza viruses that spread between people through respiratory droplets.",
+    "task": "causes"
+  },
+  {
+    "question": "How is influenza treated?",
+    "answer": "Influenza is treated with supportive care and sometimes antiviral medication.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is COVID-19?",
+    "answer": "COVID-19 is an infectious disease caused by the SARS-CoV-2 virus.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of COVID-19?",
+    "answer": "Symptoms of COVID-19 may include fever, cough, fatigue, shortness of breath, and loss of taste or smell.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes COVID-19?",
+    "answer": "COVID-19 is caused by infection with the SARS-CoV-2 virus.",
+    "task": "causes"
+  },
+  {
+    "question": "How is COVID-19 treated?",
+    "answer": "Treatment of COVID-19 depends on severity and may include supportive care, oxygen, and antiviral or anti-inflammatory therapy.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is sepsis?",
+    "answer": "Sepsis is a life-threatening condition caused by the body's overwhelming response to infection, leading to organ dysfunction.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of sepsis?",
+    "answer": "Symptoms of sepsis may include fever, rapid heart rate, confusion, low blood pressure, and breathing difficulty.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes sepsis?",
+    "answer": "Sepsis is caused by severe infection that triggers a widespread inflammatory response in the body.",
+    "task": "causes"
+  },
+  {
+    "question": "How is sepsis treated?",
+    "answer": "Sepsis is treated with prompt intravenous antibiotics, fluids, oxygen, and intensive supportive care.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is the difference between bradycardia and tachycardia?",
+    "answer": "Bradycardia is a slower than normal heart rate, whereas tachycardia is a faster than normal heart rate.",
+    "task": "comparison"
+  },
+  {
+    "question": "Is bradycardia a fast heart rate?",
+    "answer": "No. Bradycardia is a slow heart rate.",
+    "task": "definition"
+  },
+  {
+    "question": "Is tachycardia a slow heart rate?",
+    "answer": "No. Tachycardia is a fast heart rate.",
+    "task": "definition"
+  },
+  {
+    "question": "What is the difference between asthma and chronic obstructive pulmonary disease?",
+    "answer": "Asthma usually involves variable and reversible airflow obstruction, whereas chronic obstructive pulmonary disease involves persistent airflow limitation.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between gastric ulcer and gastroesophageal reflux disease?",
+    "answer": "A gastric ulcer is an open sore in the stomach lining, whereas gastroesophageal reflux disease is reflux of stomach contents into the esophagus.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between anxiety and depression?",
+    "answer": "Anxiety is characterized by excessive worry and tension, whereas depression is characterized by persistent low mood and loss of interest.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between cataracts and glaucoma?",
+    "answer": "Cataracts are opacities of the lens, whereas glaucoma is optic nerve damage often associated with increased intraocular pressure.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between pneumonia and bronchitis?",
+    "answer": "Pneumonia is an infection of the lung tissue, whereas bronchitis is inflammation of the bronchial tubes.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between bradycardia and hypertension?",
+    "answer": "Bradycardia is a slow heart rate, whereas hypertension is persistently elevated blood pressure.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between tachycardia and hypertension?",
+    "answer": "Tachycardia is a fast heart rate, whereas hypertension is persistently elevated blood pressure.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is pneumothorax?",
+    "answer": "Pneumothorax is a condition in which air collects in the space between the lung and chest wall, causing the lung to collapse.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of pneumothorax?",
+    "answer": "Symptoms of pneumothorax include sudden chest pain, shortness of breath, and reduced breath sounds on the affected side.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes pneumothorax?",
+    "answer": "Pneumothorax may be caused by chest injury, lung disease, medical procedures, or spontaneous rupture of small air blisters in the lung.",
+    "task": "causes"
+  },
+  {
+    "question": "How is pneumothorax treated?",
+    "answer": "Treatment may include observation, oxygen therapy, needle aspiration, or insertion of a chest tube to remove the air.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is pneumoencephalus?",
+    "answer": "Pneumoencephalus is the presence of air within the cranial cavity.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes pneumoencephalus?",
+    "answer": "Pneumoencephalus may be caused by head trauma, neurosurgery, skull base fracture, or infection.",
+    "task": "causes"
+  },
+  {
+    "question": "What are symptoms of pneumoencephalus?",
+    "answer": "Symptoms of pneumoencephalus may include headache, nausea, confusion, neurological deficits, or decreased consciousness.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is pneumoencephalus treated?",
+    "answer": "Treatment of pneumoencephalus depends on the cause and may include observation, oxygen therapy, or surgical repair.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is encephalitis?",
+    "answer": "Encephalitis is inflammation of the brain, usually caused by viral infection.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of encephalitis?",
+    "answer": "Symptoms of encephalitis may include fever, headache, confusion, seizures, and altered consciousness.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes encephalitis?",
+    "answer": "Encephalitis is most commonly caused by viral infections such as herpes simplex virus.",
+    "task": "causes"
+  },
+  {
+    "question": "How is encephalitis treated?",
+    "answer": "Treatment includes antiviral medications, supportive care, and management of complications.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is encefalitis?",
+    "answer": "Encefalitis is a misspelling of encephalitis, which is inflammation of the brain.",
+    "task": "definition"
+  },
+  {
+    "question": "What is thrombophlebitis?",
+    "answer": "Thrombophlebitis is inflammation of a vein associated with formation of a blood clot.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of thrombophlebitis?",
+    "answer": "Symptoms of thrombophlebitis may include pain, swelling, redness, warmth, and tenderness along a vein.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes thrombophlebitis?",
+    "answer": "Thrombophlebitis may be caused by venous stasis, injury to the vein, clotting disorders, or intravenous catheters.",
+    "task": "causes"
+  },
+  {
+    "question": "How is thrombophlebitis treated?",
+    "answer": "Treatment of thrombophlebitis may include compression, anti-inflammatory medication, anticoagulation, and treatment of risk factors.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is a stent?",
+    "answer": "A stent is a small tube inserted into a blood vessel or other passage to keep it open.",
+    "task": "definition"
+  },
+  {
+    "question": "Why is a stent used?",
+    "answer": "A stent is used to keep a narrowed or blocked vessel or duct open and improve flow.",
+    "task": "definition"
+  },
+  {
+    "question": "What is a coronary stent?",
+    "answer": "A coronary stent is a small mesh tube placed in a coronary artery to keep it open after angioplasty.",
+    "task": "definition"
+  },
+  {
+    "question": "What is volume depletion?",
+    "answer": "Volume depletion is a reduction in the effective circulating fluid volume in the body.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of volume depletion?",
+    "answer": "Symptoms of volume depletion may include thirst, dizziness, weakness, low blood pressure, and reduced urine output.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes volume depletion?",
+    "answer": "Volume depletion may be caused by vomiting, diarrhea, bleeding, sweating, burns, or inadequate fluid intake.",
+    "task": "causes"
+  },
+  {
+    "question": "How is volume depletion treated?",
+    "answer": "Volume depletion is treated with fluid replacement and correction of the underlying cause.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is dehydration?",
+    "answer": "Dehydration is a condition in which the body loses more fluid than it takes in.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of dehydration?",
+    "answer": "Symptoms of dehydration include thirst, dry mouth, dizziness, weakness, and decreased urine output.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes dehydration?",
+    "answer": "Dehydration may be caused by inadequate fluid intake, diarrhea, vomiting, fever, or excessive sweating.",
+    "task": "causes"
+  },
+  {
+    "question": "How is dehydration treated?",
+    "answer": "Dehydration is treated with oral or intravenous fluid replacement and management of the underlying cause.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is dysuria?",
+    "answer": "Dysuria is pain or discomfort during urination.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes dysuria?",
+    "answer": "Dysuria may be caused by urinary tract infection, irritation, inflammation, stones, or sexually transmitted infection.",
+    "task": "causes"
+  },
+  {
+    "question": "What are symptoms associated with dysuria?",
+    "answer": "Symptoms associated with dysuria may include burning during urination, urinary urgency, frequency, and lower abdominal discomfort.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is dysuria treated?",
+    "answer": "Treatment of dysuria depends on the cause and may include antibiotics, hydration, or treatment of irritation or stones.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is stomach ache?",
+    "answer": "Stomach ache is a common term for abdominal pain or discomfort.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes stomach ache?",
+    "answer": "Stomach ache may be caused by indigestion, gastritis, infection, constipation, ulcer disease, or other abdominal disorders.",
+    "task": "causes"
+  },
+  {
+    "question": "What are symptoms associated with stomach ache?",
+    "answer": "Symptoms associated with stomach ache may include abdominal pain, nausea, bloating, cramping, or vomiting.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is stomach ache treated?",
+    "answer": "Treatment of stomach ache depends on the cause and may include hydration, dietary change, medications, or further medical evaluation.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is abdominal pain?",
+    "answer": "Abdominal pain is pain felt between the chest and the pelvis.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes abdominal pain?",
+    "answer": "Abdominal pain may be caused by gastrointestinal, urinary, gynecological, metabolic, or vascular disorders.",
+    "task": "causes"
+  },
+  {
+    "question": "How is abdominal pain treated?",
+    "answer": "Treatment of abdominal pain depends on the cause and may range from supportive care to urgent surgery.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is ulcer?",
+    "answer": "An ulcer is an open sore that can develop on the skin or on a mucous membrane.",
+    "task": "definition"
+  },
+  {
+    "question": "What is a gastric ulcer?",
+    "answer": "A gastric ulcer is an open sore in the lining of the stomach.",
+    "task": "definition"
+  },
+  {
+    "question": "What is a peptic ulcer?",
+    "answer": "A peptic ulcer is an ulcer that forms in the stomach or the first part of the small intestine.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes ulcer disease?",
+    "answer": "Ulcer disease may be caused by Helicobacter pylori infection, nonsteroidal anti-inflammatory drugs, or acid-related injury.",
+    "task": "causes"
+  },
+  {
+    "question": "What is heart disease?",
+    "answer": "Heart disease is a broad term for disorders that affect the heart or blood vessels.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes heart disease?",
+    "answer": "Heart disease may be caused by atherosclerosis, hypertension, congenital abnormalities, infection, or cardiomyopathy.",
+    "task": "causes"
+  },
+  {
+    "question": "What are symptoms of heart disease?",
+    "answer": "Symptoms of heart disease may include chest pain, shortness of breath, fatigue, palpitations, or swelling.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is heart disease treated?",
+    "answer": "Treatment of heart disease depends on the specific condition and may include lifestyle measures, medications, procedures, or surgery.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is Alzheimer disease?",
+    "answer": "Alzheimer disease is a progressive neurodegenerative disorder that causes memory loss and cognitive decline.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of Alzheimer disease?",
+    "answer": "Symptoms of Alzheimer disease include memory impairment, confusion, language difficulty, and decline in daily functioning.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes Alzheimer disease?",
+    "answer": "Alzheimer disease is associated with progressive brain degeneration involving abnormal protein accumulation and neuronal loss.",
+    "task": "causes"
+  },
+  {
+    "question": "How is Alzheimer disease treated?",
+    "answer": "Treatment of Alzheimer disease may include supportive care, cognitive support, and medications that may temporarily improve symptoms.",
+    "task": "treatment"
+  },
+  {
+    "question": "What are hallucinations?",
+    "answer": "Hallucinations are perceptions that occur without an external stimulus, such as seeing or hearing things that are not present.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes hallucinations?",
+    "answer": "Hallucinations may be caused by psychiatric illness, neurological disease, substance use, infections, or metabolic disorders.",
+    "task": "causes"
+  },
+  {
+    "question": "How are hallucinations treated?",
+    "answer": "Treatment of hallucinations depends on the cause and may include psychiatric care, medication adjustment, or treatment of underlying illness.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is anaemia?",
+    "answer": "Anaemia is an alternative spelling of anemia, a condition in which the blood has reduced oxygen-carrying capacity.",
+    "task": "definition"
+  },
+  {
+    "question": "What is epillepsy?",
+    "answer": "Epillepsy is a misspelling of epilepsy, a neurological disorder characterized by recurrent unprovoked seizures.",
+    "task": "definition"
+  },
+  {
+    "question": "What is bradychardia?",
+    "answer": "Bradychardia is a misspelling of bradycardia, which is a heart rate that is slower than normal at rest.",
+    "task": "definition"
+  },
+  {
+    "question": "What is filariasis?",
+    "answer": "Filariasis is a parasitic disease caused by thread-like worms transmitted through mosquito bites.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes filariasis?",
+    "answer": "Filariasis is caused by parasitic worms transmitted by infected mosquitoes.",
+    "task": "causes"
+  },
+  {
+    "question": "What are symptoms of filariasis?",
+    "answer": "Symptoms of filariasis may include fever, lymphatic swelling, lymphedema, and tissue enlargement.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is filariasis treated?",
+    "answer": "Treatment includes antiparasitic medications to kill the worms and manage complications.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is hydatid disease?",
+    "answer": "Hydatid disease is a parasitic infection caused by Echinococcus tapeworm larvae forming cysts in organs such as the liver and lungs.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes hydatid disease?",
+    "answer": "Hydatid disease is caused by ingestion of tapeworm eggs from contaminated food, water, or contact with infected animals.",
+    "task": "causes"
+  },
+  {
+    "question": "What are symptoms of hydatid disease?",
+    "answer": "Symptoms of hydatid disease depend on the organ involved and may include abdominal pain, cough, or pressure effects from cysts.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is hydatid disease treated?",
+    "answer": "Treatment may include antiparasitic medications and surgical removal of cysts.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is leprosy?",
+    "answer": "Leprosy is a chronic infectious disease caused by Mycobacterium leprae that affects the skin, nerves, and mucous membranes.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes leprosy?",
+    "answer": "Leprosy is caused by infection with Mycobacterium leprae.",
+    "task": "causes"
+  },
+  {
+    "question": "What are symptoms of leprosy?",
+    "answer": "Symptoms of leprosy may include skin lesions, numbness, weakness, and peripheral nerve damage.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is leprosy treated?",
+    "answer": "Leprosy is treated with a long-term combination of antibiotics to prevent complications and transmission.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is ischaemic stroke?",
+    "answer": "Ischaemic stroke is the same as ischemic stroke and refers to blockage of blood flow to part of the brain.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes ischaemic stroke?",
+    "answer": "Ischaemic stroke is caused by obstruction of a cerebral artery, often due to thrombosis or embolism.",
+    "task": "causes"
+  },
+  {
+    "question": "What are symptoms of ischaemic stroke?",
+    "answer": "Symptoms of ischaemic stroke include sudden weakness, facial droop, speech difficulty, and visual or coordination problems.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is ischaemic stroke treated?",
+    "answer": "Ischaemic stroke may be treated with clot-dissolving therapy, thrombectomy, and supportive stroke care.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is hemorrhagic stroke?",
+    "answer": "Hemorrhagic stroke occurs when a weakened blood vessel ruptures and bleeds into or around the brain.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes hemorrhagic stroke?",
+    "answer": "It is caused by rupture of a cerebral blood vessel, often due to hypertension or aneurysm.",
+    "task": "causes"
+  },
+  {
+    "question": "What are symptoms of hemorrhagic stroke?",
+    "answer": "Symptoms of hemorrhagic stroke include sudden headache, neurological deficit, vomiting, and reduced consciousness.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is hemorrhagic stroke treated?",
+    "answer": "Treatment may include blood pressure control, surgery, and supportive intensive care.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is aortitis?",
+    "answer": "Aortitis is inflammation of the aorta.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes aortitis?",
+    "answer": "Aortitis may be caused by autoimmune disease, vasculitis, or infection.",
+    "task": "causes"
+  },
+  {
+    "question": "What are symptoms of aortitis?",
+    "answer": "Symptoms of aortitis may include pain, fever, constitutional symptoms, and complications related to the aorta.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is aortitis treated?",
+    "answer": "Treatment of aortitis depends on the cause and may include immunosuppressive therapy or treatment of infection.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is the difference between pneumothorax and pneumoencephalus?",
+    "answer": "Pneumothorax is air in the pleural space around the lung, whereas pneumoencephalus is air within the cranial cavity.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between tuberculosis and leprosy?",
+    "answer": "Tuberculosis is usually a pulmonary infectious disease caused by Mycobacterium tuberculosis, whereas leprosy is a chronic infection caused by Mycobacterium leprae that mainly affects skin and nerves.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between ulcer and gastric ulcer?",
+    "answer": "An ulcer is a general term for an open sore, whereas a gastric ulcer is an ulcer located in the stomach lining.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between gastric ulcer and peptic ulcer?",
+    "answer": "A gastric ulcer is a specific ulcer in the stomach, whereas a peptic ulcer includes ulcers in the stomach or the upper small intestine.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between ischaemic stroke and hemorrhagic stroke?",
+    "answer": "Ischaemic stroke is caused by blocked blood flow, whereas hemorrhagic stroke is caused by bleeding in or around the brain.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between filariasis and leprosy?",
+    "answer": "Filariasis is a parasitic infection affecting lymphatic tissues, whereas leprosy is a bacterial infection affecting skin and nerves.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between hydatid disease and filariasis?",
+    "answer": "Hydatid disease is caused by Echinococcus cysts in organs, whereas filariasis is caused by filarial worms affecting the lymphatic system.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is low blood pressure?",
+    "answer": "Low blood pressure, also called hypotension, occurs when blood pressure falls below normal levels and may cause dizziness or fainting.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes low blood pressure?",
+    "answer": "Low blood pressure may be caused by dehydration, bleeding, infection, medications, or heart problems.",
+    "task": "causes"
+  },
+  {
+    "question": "What are symptoms of low blood pressure?",
+    "answer": "Symptoms of low blood pressure may include dizziness, weakness, blurred vision, and fainting.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is low blood pressure treated?",
+    "answer": "Treatment of low blood pressure depends on the cause and may include fluids, medication adjustment, or urgent medical care.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is hypotension?",
+    "answer": "Hypotension is a condition in which blood pressure is abnormally low and may reduce blood flow to vital organs.",
+    "task": "definition"
+  },
+  {
+    "question": "What is oedema?",
+    "answer": "Oedema is swelling caused by excess fluid in the tissues.",
+    "task": "definition"
+  },
+  {
+    "question": "What is edema?",
+    "answer": "Edema is swelling caused by excess fluid in the tissues.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes edema?",
+    "answer": "Edema may be caused by heart failure, kidney disease, liver disease, inflammation, or venous problems.",
+    "task": "causes"
+  },
+  {
+    "question": "What is diarrhoea?",
+    "answer": "Diarrhoea is an alternative spelling of diarrhea, which means frequent loose or watery stools.",
+    "task": "definition"
+  },
+  {
+    "question": "What is diarrhea?",
+    "answer": "Diarrhea is frequent passage of loose or watery stools.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes diarrhea?",
+    "answer": "Diarrhea may be caused by infection, food intolerance, medication, or gastrointestinal disease.",
+    "task": "causes"
+  },
+  {
+    "question": "What is an unknown disease not in my dataset?",
+    "answer": "I do not have enough reliable information in my training data to answer that confidently.",
+    "task": "definition"
+  },
+  {
+    "question": "What should you say if you do not know a disease?",
+    "answer": "If I do not know a disease reliably, I should say that I do not have enough information in my training data.",
+    "task": "definition"
+  },
+  {
+    "question": "How should you answer if the term is unfamiliar?",
+    "answer": "If the term is unfamiliar, I should say that I do not have enough reliable information to answer confidently.",
+    "task": "definition"
+  },
+  {
+    "question": "What if the medical term is not in your training data?",
+    "answer": "If the medical term is not in my training data, I should avoid guessing and say that I do not have enough information.",
+    "task": "definition"
+  },
+  {
+    "question": "What is blablablitis?",
+    "answer": "I do not have enough reliable information in my training data to answer that question.",
+    "task": "definition"
+  },
+  {
+    "question": "What is pulmonary embolism?",
+    "answer": "Pulmonary embolism is a blockage of a pulmonary artery, usually caused by a blood clot traveling from the legs.",
+    "task": "definition"
+  },
+  {
+    "question": "What are symptoms of pulmonary embolism?",
+    "answer": "Symptoms of pulmonary embolism may include sudden shortness of breath, chest pain, tachycardia, and cough.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes pulmonary embolism?",
+    "answer": "Pulmonary embolism is typically caused by a blood clot that forms in the deep veins of the legs and travels to the lungs.",
+    "task": "causes"
+  },
+  {
+    "question": "How is pulmonary embolism treated?",
+    "answer": "Treatment includes anticoagulant medications, thrombolytic therapy in severe cases, and sometimes surgical removal of the clot.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is the difference between pneumothorax and pulmonary embolism?",
+    "answer": "Pneumothorax is air in the pleural space, whereas pulmonary embolism is blockage of a pulmonary artery by a clot.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is COPD?",
+    "answer": "COPD is an abbreviation for chronic obstructive pulmonary disease, a long-term lung condition that makes breathing difficult.",
+    "task": "definition"
+  },
+  {
+    "question": "What is the difference between myocardial infarction and heart failure?",
+    "answer": "Myocardial infarction is acute injury from reduced coronary blood flow, whereas heart failure is impaired pumping function of the heart.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between hypertension and hypotension?",
+    "answer": "Hypertension is persistently elevated blood pressure, whereas hypotension is blood pressure that is lower than normal.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between encephalitis and epilepsy?",
+    "answer": "Encephalitis is inflammation of the brain, whereas epilepsy is a disorder characterized by recurrent unprovoked seizures.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is the difference between dehydration and volume depletion?",
+    "answer": "Dehydration refers to loss of body water, whereas volume depletion refers to reduced effective circulating fluid volume.",
+    "task": "comparison"
+  },
+  {
+    "question": "What is peptic ulcer?",
+    "answer": "A peptic ulcer is an open sore that develops in the lining of the stomach or the upper part of the small intestine.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of stroke?",
+    "answer": "Symptoms include sudden weakness or numbness on one side of the body, difficulty speaking, vision problems, severe headache, and loss of balance.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain stroke in simple terms.",
+    "answer": "A stroke happens when blood cannot reach part of the brain, causing brain cells to die.",
+    "task": "definition"
+  },
+  {
+    "question": "What is ischemic stroke?",
+    "answer": "Ischemic stroke occurs when a blood clot blocks a blood vessel supplying the brain.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of ischemic stroke?",
+    "answer": "Symptoms include sudden weakness, difficulty speaking, facial drooping, and loss of coordination.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes ischemic stroke?",
+    "answer": "It is caused by a blood clot that blocks a cerebral artery, often due to atherosclerosis or embolism.",
+    "task": "causes"
+  },
+  {
+    "question": "How is ischemic stroke treated?",
+    "answer": "Treatment includes intravenous thrombolysis, mechanical clot removal, and long-term prevention with antiplatelet or anticoagulant therapy.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain ischemic stroke in simple terms.",
+    "answer": "An ischemic stroke happens when a clot blocks blood flow to the brain.",
+    "task": "definition"
+  },
+  {
+    "question": "What is haemorrhagic stroke?",
+    "answer": "Haemorrhagic stroke is another spelling of hemorrhagic stroke and refers to bleeding inside the brain.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of hemorrhagic stroke?",
+    "answer": "Symptoms include sudden severe headache, vomiting, loss of consciousness, and neurological deficits.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain hemorrhagic stroke in simple terms.",
+    "answer": "A hemorrhagic stroke happens when a blood vessel in the brain bursts and causes bleeding.",
+    "task": "definition"
+  },
+  {
+    "question": "What is seizure disorder?",
+    "answer": "Seizure disorder is another term for epilepsy, a condition that causes repeated seizures.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of epilepsy?",
+    "answer": "Symptoms include convulsions, temporary confusion, staring spells, or loss of awareness.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain epilepsy in simple terms.",
+    "answer": "Epilepsy is a condition where a person has repeated seizures.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of encephalitis?",
+    "answer": "Symptoms include fever, headache, confusion, seizures, and changes in consciousness.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain encephalitis in simple terms.",
+    "answer": "Encephalitis is swelling of the brain caused by infection.",
+    "task": "definition"
+  },
+  {
+    "question": "What is meningitis?",
+    "answer": "Meningitis is inflammation of the protective membranes covering the brain and spinal cord, usually due to infection.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of meningitis?",
+    "answer": "Symptoms include fever, headache, neck stiffness, sensitivity to light, and confusion.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes meningitis?",
+    "answer": "Meningitis may be caused by bacterial, viral, or fungal infections.",
+    "task": "causes"
+  },
+  {
+    "question": "How is meningitis treated?",
+    "answer": "Treatment depends on the cause and may include antibiotics, antivirals, corticosteroids, and supportive care.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain meningitis in simple terms.",
+    "answer": "Meningitis is an infection that causes swelling around the brain and spinal cord.",
+    "task": "definition"
+  },
+  {
+    "question": "What is high blood pressure?",
+    "answer": "High blood pressure is another term for hypertension, a condition where the force of blood against artery walls is consistently too high.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of hypertension?",
+    "answer": "Hypertension often has no symptoms, but in severe cases it may cause headaches, dizziness, blurred vision, chest pain, or shortness of breath.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain hypertension in simple terms.",
+    "answer": "Hypertension means your blood pressure stays too high for a long time, which can damage your heart and blood vessels.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of hypotension?",
+    "answer": "Symptoms include dizziness, fainting, blurred vision, nausea, fatigue, and confusion.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes hypotension?",
+    "answer": "Hypotension may be caused by dehydration, blood loss, heart problems, endocrine disorders, severe infection, or certain medications.",
+    "task": "causes"
+  },
+  {
+    "question": "How is hypotension treated?",
+    "answer": "Treatment depends on the cause and may include fluid replacement, medications, compression stockings, or adjusting current medications.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain hypotension in simple terms.",
+    "answer": "Hypotension means your blood pressure is too low, which can make you feel weak or dizzy.",
+    "task": "definition"
+  },
+  {
+    "question": "What is heart attack?",
+    "answer": "A heart attack happens when blood flow to part of the heart is suddenly blocked, causing damage to the heart muscle.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of myocardial infarction?",
+    "answer": "Symptoms include chest pain or pressure, shortness of breath, sweating, nausea, and pain radiating to the arm, jaw, or back.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain myocardial infarction in simple terms.",
+    "answer": "A myocardial infarction is a heart attack that happens when part of the heart does not get enough blood and becomes damaged.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of heart failure?",
+    "answer": "Symptoms include shortness of breath, swelling of the legs, fatigue, weight gain from fluid retention, and reduced exercise tolerance.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain heart failure in simple terms.",
+    "answer": "Heart failure means the heart is too weak or stiff to pump blood properly throughout the body.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of asthma?",
+    "answer": "Symptoms of asthma include wheezing, shortness of breath, chest tightness, and coughing, especially at night or early in the morning.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain asthma in simple terms.",
+    "answer": "Asthma is a condition where the airways become narrow and inflamed, making it harder to breathe.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of pneumonia?",
+    "answer": "Symptoms of pneumonia include fever, cough, chest pain, shortness of breath, and fatigue.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain pneumonia in simple terms.",
+    "answer": "Pneumonia is a lung infection that causes coughing, fever, and difficulty breathing.",
+    "task": "definition"
+  },
+  {
+    "question": "What is collapsed lung?",
+    "answer": "A collapsed lung, also known as pneumothorax, occurs when air leaks into the chest cavity and causes part or all of the lung to collapse.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of pneumothorax?",
+    "answer": "Symptoms include sudden chest pain and shortness of breath.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain pneumothorax in simple terms.",
+    "answer": "Pneumothorax happens when air leaks around the lung and makes it collapse.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of chronic obstructive pulmonary disease?",
+    "answer": "Symptoms include chronic cough, sputum production, wheezing, and shortness of breath that worsens over time.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain chronic obstructive pulmonary disease in simple terms.",
+    "answer": "COPD is a long-term lung disease that makes it harder to breathe over time.",
+    "task": "definition"
+  },
+  {
+    "question": "What is lung clot?",
+    "answer": "A lung clot, also called pulmonary embolism, occurs when a blood clot blocks blood flow in the lungs.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of pulmonary embolism?",
+    "answer": "Symptoms include sudden shortness of breath, chest pain, rapid heart rate, and sometimes coughing up blood.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain pulmonary embolism in simple terms.",
+    "answer": "Pulmonary embolism happens when a blood clot blocks a blood vessel in the lungs.",
+    "task": "definition"
+  },
+  {
+    "question": "What is TB?",
+    "answer": "TB is an abbreviation for tuberculosis, a bacterial infection that most commonly affects the lungs.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of tuberculosis?",
+    "answer": "Symptoms include persistent cough, fever, night sweats, weight loss, and coughing up blood in advanced cases.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain tuberculosis in simple terms.",
+    "answer": "Tuberculosis is a lung infection caused by bacteria that spreads through the air.",
+    "task": "definition"
+  },
+  {
+    "question": "What is Hansen disease?",
+    "answer": "Hansen disease is another name for leprosy, a bacterial infection that affects the skin and nerves.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of leprosy?",
+    "answer": "Symptoms include skin lesions, numbness, muscle weakness, and nerve damage.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain leprosy in simple terms.",
+    "answer": "Leprosy is a bacterial infection that damages the skin and nerves.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of filariasis?",
+    "answer": "Symptoms may include swelling of limbs or genitals, fever, and inflammation of the lymphatic system.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain filariasis in simple terms.",
+    "answer": "Filariasis is a disease caused by parasitic worms spread by mosquitoes that can cause swelling.",
+    "task": "definition"
+  },
+  {
+    "question": "What is echinococcosis?",
+    "answer": "Echinococcosis is another name for hydatid disease, a parasitic infection that forms cysts in internal organs.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of hydatid disease?",
+    "answer": "Symptoms depend on the organ involved but may include abdominal pain, cough, or chest discomfort.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain hydatid disease in simple terms.",
+    "answer": "Hydatid disease is an infection where parasites form cysts inside organs.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of sepsis?",
+    "answer": "Symptoms include fever or low body temperature, rapid heart rate, rapid breathing, confusion, and low blood pressure.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain sepsis in simple terms.",
+    "answer": "Sepsis happens when an infection spreads in the body and causes organs to stop working properly.",
+    "task": "definition"
+  },
+  {
+    "question": "What is diabetes?",
+    "answer": "Diabetes is a condition in which blood sugar levels remain too high because the body cannot properly use or produce insulin.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of diabetes mellitus?",
+    "answer": "Symptoms include increased thirst, frequent urination, unexplained weight loss, fatigue, blurred vision, and slow wound healing.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain diabetes in simple terms.",
+    "answer": "Diabetes is a condition where the body cannot properly control blood sugar levels.",
+    "task": "definition"
+  },
+  {
+    "question": "What is hyperthyroidism?",
+    "answer": "Hyperthyroidism is a condition in which the thyroid gland produces excessive amounts of thyroid hormones.",
+    "task": "definition"
+  },
+  {
+    "question": "What is overactive thyroid?",
+    "answer": "Overactive thyroid is another term for hyperthyroidism, where the thyroid gland makes too much hormone.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of hyperthyroidism?",
+    "answer": "Symptoms include weight loss, rapid heartbeat, sweating, anxiety, tremors, and heat intolerance.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes hyperthyroidism?",
+    "answer": "Hyperthyroidism may be caused by autoimmune disease such as Graves' disease, thyroid nodules, or excessive iodine intake.",
+    "task": "causes"
+  },
+  {
+    "question": "How is hyperthyroidism treated?",
+    "answer": "Treatment may include antithyroid medications, radioactive iodine therapy, or surgical removal of part of the thyroid gland.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain hyperthyroidism in simple terms.",
+    "answer": "Hyperthyroidism means the thyroid gland is too active and speeds up the body's metabolism.",
+    "task": "definition"
+  },
+  {
+    "question": "What is underactive thyroid?",
+    "answer": "Underactive thyroid is another term for hypothyroidism, where the thyroid gland produces too little hormone.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of hypothyroidism?",
+    "answer": "Symptoms include fatigue, weight gain, cold intolerance, dry skin, constipation, and depression.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain hypothyroidism in simple terms.",
+    "answer": "Hypothyroidism means the thyroid gland is not active enough and the body's metabolism slows down.",
+    "task": "definition"
+  },
+  {
+    "question": "What is high cholesterol?",
+    "answer": "High cholesterol refers to elevated levels of cholesterol in the blood, which increases the risk of cardiovascular disease.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of hyperlipidemia?",
+    "answer": "Hyperlipidemia usually has no symptoms but may lead to complications such as heart disease or stroke.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain hyperlipidemia in simple terms.",
+    "answer": "Hyperlipidemia means there is too much fat, like cholesterol, in the blood.",
+    "task": "definition"
+  },
+  {
+    "question": "What is stomach ulcer?",
+    "answer": "A stomach ulcer is another term for gastric ulcer, a sore that forms on the stomach lining.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of gastric ulcer?",
+    "answer": "Symptoms include burning stomach pain, nausea, bloating, and in severe cases vomiting blood or black stools.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain gastric ulcer in simple terms.",
+    "answer": "A gastric ulcer is a sore inside the stomach that can cause pain.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of peptic ulcer?",
+    "answer": "Symptoms include abdominal pain, bloating, heartburn, and sometimes bleeding.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes peptic ulcer?",
+    "answer": "Peptic ulcers are caused by Helicobacter pylori infection, prolonged NSAID use, or excess stomach acid.",
+    "task": "causes"
+  },
+  {
+    "question": "How is peptic ulcer treated?",
+    "answer": "Treatment includes acid-reducing medications and antibiotics if infection is present.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain peptic ulcer in simple terms.",
+    "answer": "A peptic ulcer is a sore in the stomach or small intestine.",
+    "task": "definition"
+  },
+  {
+    "question": "What is gastritis?",
+    "answer": "Gastritis is inflammation of the stomach lining.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of gastritis?",
+    "answer": "Symptoms include stomach pain, nausea, vomiting, and indigestion.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes gastritis?",
+    "answer": "Gastritis may be caused by infection, excessive alcohol use, stress, or prolonged NSAID use.",
+    "task": "causes"
+  },
+  {
+    "question": "How is gastritis treated?",
+    "answer": "Treatment includes acid-reducing medications, antibiotics if needed, and avoiding irritants.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain gastritis in simple terms.",
+    "answer": "Gastritis is irritation or swelling of the stomach lining.",
+    "task": "definition"
+  },
+  {
+    "question": "What is cirrhosis?",
+    "answer": "Cirrhosis is chronic liver damage characterized by scarring and impaired liver function.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of cirrhosis?",
+    "answer": "Symptoms include fatigue, jaundice, abdominal swelling, easy bruising, and confusion in advanced stages.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes cirrhosis?",
+    "answer": "Cirrhosis is commonly caused by chronic alcohol use, viral hepatitis, or fatty liver disease.",
+    "task": "causes"
+  },
+  {
+    "question": "How is cirrhosis treated?",
+    "answer": "Treatment focuses on managing complications, treating underlying causes, and in severe cases liver transplantation.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain cirrhosis in simple terms.",
+    "answer": "Cirrhosis is severe scarring of the liver that prevents it from working properly.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of hepatitis?",
+    "answer": "Symptoms include fatigue, nausea, abdominal pain, jaundice, and dark urine.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain hepatitis in simple terms.",
+    "answer": "Hepatitis is swelling of the liver that can make you feel sick and tired.",
+    "task": "definition"
+  },
+  {
+    "question": "What is acute kidney injury?",
+    "answer": "Acute kidney injury is a sudden decline in kidney function that leads to accumulation of waste products and fluid imbalance in the body.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of acute kidney injury?",
+    "answer": "Symptoms may include decreased urine output, swelling of legs, fatigue, confusion, nausea, and shortness of breath.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes acute kidney injury?",
+    "answer": "It may be caused by dehydration, severe infection, blood loss, medications, or obstruction of the urinary tract.",
+    "task": "causes"
+  },
+  {
+    "question": "How is acute kidney injury treated?",
+    "answer": "Treatment focuses on correcting the underlying cause, restoring fluid balance, and in severe cases dialysis.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain acute kidney injury in simple terms.",
+    "answer": "Acute kidney injury means the kidneys suddenly stop working properly.",
+    "task": "definition"
+  },
+  {
+    "question": "What is chronic kidney disease?",
+    "answer": "Chronic kidney disease is a long-term, progressive loss of kidney function over months or years.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of chronic kidney disease?",
+    "answer": "Symptoms include fatigue, swelling, changes in urination, high blood pressure, nausea, and anemia.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes chronic kidney disease?",
+    "answer": "Common causes include diabetes, hypertension, autoimmune diseases, and chronic infections.",
+    "task": "causes"
+  },
+  {
+    "question": "How is chronic kidney disease treated?",
+    "answer": "Treatment includes blood pressure control, blood sugar management, dietary modification, medications, and eventually dialysis or kidney transplantation.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain chronic kidney disease in simple terms.",
+    "answer": "Chronic kidney disease means the kidneys slowly lose their ability to filter waste from the blood.",
+    "task": "definition"
+  },
+  {
+    "question": "What is nephrotic syndrome?",
+    "answer": "Nephrotic syndrome is a kidney disorder characterized by heavy protein loss in the urine, low blood protein levels, swelling, and high cholesterol.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of nephrotic syndrome?",
+    "answer": "Symptoms include swelling of the face and legs, foamy urine, fatigue, and weight gain due to fluid retention.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes nephrotic syndrome?",
+    "answer": "It may be caused by kidney diseases such as minimal change disease, diabetes, infections, or autoimmune disorders.",
+    "task": "causes"
+  },
+  {
+    "question": "How is nephrotic syndrome treated?",
+    "answer": "Treatment includes corticosteroids, blood pressure medications, diuretics, and management of the underlying cause.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain nephrotic syndrome in simple terms.",
+    "answer": "Nephrotic syndrome is a kidney problem that causes protein loss in urine and body swelling.",
+    "task": "definition"
+  },
+  {
+    "question": "What is kidney stone?",
+    "answer": "A kidney stone is a hard deposit of minerals and salts that forms inside the kidneys.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of kidney stones?",
+    "answer": "Symptoms include severe flank pain, blood in urine, nausea, vomiting, and painful urination.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes kidney stones?",
+    "answer": "Kidney stones form when urine becomes concentrated, allowing minerals to crystallize and stick together.",
+    "task": "causes"
+  },
+  {
+    "question": "How are kidney stones treated?",
+    "answer": "Treatment includes pain control, increased fluid intake, medications to help stone passage, or procedures to remove large stones.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain kidney stones in simple terms.",
+    "answer": "Kidney stones are hard lumps that form in the kidneys and can cause severe pain.",
+    "task": "definition"
+  },
+  {
+    "question": "What is urinary tract infection?",
+    "answer": "A urinary tract infection is a bacterial infection affecting the bladder, urethra, or kidneys.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of urinary tract infection?",
+    "answer": "Symptoms include burning during urination, frequent urge to urinate, cloudy urine, and lower abdominal pain.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes urinary tract infection?",
+    "answer": "Urinary tract infections are usually caused by bacteria entering the urinary tract.",
+    "task": "causes"
+  },
+  {
+    "question": "How is urinary tract infection treated?",
+    "answer": "Treatment typically involves antibiotics and increased fluid intake.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain urinary tract infection in simple terms.",
+    "answer": "A urinary tract infection is an infection in the urinary system that can cause pain and frequent urination.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of anemia?",
+    "answer": "Symptoms include fatigue, weakness, pale skin, shortness of breath, dizziness, and cold hands and feet.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain anemia in simple terms.",
+    "answer": "Anemia means you do not have enough healthy red blood cells to carry oxygen around your body.",
+    "task": "definition"
+  },
+  {
+    "question": "What is iron deficiency anemia?",
+    "answer": "Iron deficiency anemia is a type of anemia caused by insufficient iron, leading to reduced hemoglobin production.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes iron deficiency anemia?",
+    "answer": "It is commonly caused by poor dietary intake, chronic blood loss, pregnancy, or problems with iron absorption.",
+    "task": "causes"
+  },
+  {
+    "question": "What are the symptoms of leukemia?",
+    "answer": "Symptoms may include fatigue, frequent infections, easy bruising or bleeding, fever, and bone pain.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain leukemia in simple terms.",
+    "answer": "Leukemia is a blood cancer that affects white blood cells.",
+    "task": "definition"
+  },
+  {
+    "question": "What is thrombocytopenia?",
+    "answer": "Thrombocytopenia is a condition characterized by a low platelet count in the blood.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of thrombocytopenia?",
+    "answer": "Symptoms include easy bruising, prolonged bleeding, petechiae, and nose or gum bleeding.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes thrombocytopenia?",
+    "answer": "Causes include autoimmune diseases, infections, medications, bone marrow disorders, or chemotherapy.",
+    "task": "causes"
+  },
+  {
+    "question": "How is thrombocytopenia treated?",
+    "answer": "Treatment depends on the cause and may include corticosteroids, platelet transfusions, or treating the underlying condition.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain thrombocytopenia in simple terms.",
+    "answer": "Thrombocytopenia means you have too few platelets, which can cause bleeding problems.",
+    "task": "definition"
+  },
+  {
+    "question": "What is hemophilia?",
+    "answer": "Hemophilia is a genetic bleeding disorder caused by deficiency of specific clotting factors.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of hemophilia?",
+    "answer": "Symptoms include prolonged bleeding, easy bruising, joint bleeding, and excessive bleeding after injury.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is hemophilia treated?",
+    "answer": "Treatment involves replacement of the missing clotting factor and preventive therapy to reduce bleeding episodes.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain hemophilia in simple terms.",
+    "answer": "Hemophilia is a condition where blood does not clot properly, leading to excessive bleeding.",
+    "task": "definition"
+  },
+  {
+    "question": "What is polycythemia?",
+    "answer": "Polycythemia is a condition characterized by an increased number of red blood cells in the blood.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of polycythemia?",
+    "answer": "Symptoms may include headache, dizziness, itching, redness of the skin, and increased risk of blood clots.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is polycythemia treated?",
+    "answer": "Treatment may include phlebotomy, medications to reduce blood cell production, and management of risk factors.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain polycythemia in simple terms.",
+    "answer": "Polycythemia means your body makes too many red blood cells, which can thicken the blood.",
+    "task": "definition"
+  },
+  {
+    "question": "What is rheumatoid arthritis?",
+    "answer": "Rheumatoid arthritis is a chronic autoimmune disease that primarily affects the joints, causing inflammation, pain, swelling, and progressive joint damage.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of rheumatoid arthritis?",
+    "answer": "Symptoms include joint pain, morning stiffness lasting more than 30 minutes, swelling, fatigue, and reduced joint mobility.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes rheumatoid arthritis?",
+    "answer": "Rheumatoid arthritis is caused by an autoimmune reaction in which the immune system mistakenly attacks the lining of the joints.",
+    "task": "causes"
+  },
+  {
+    "question": "How is rheumatoid arthritis treated?",
+    "answer": "Treatment includes disease-modifying antirheumatic drugs (DMARDs), biologic agents, corticosteroids, nonsteroidal anti-inflammatory drugs, and physical therapy.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain rheumatoid arthritis in simple terms.",
+    "answer": "Rheumatoid arthritis is a condition where the immune system attacks the joints, causing pain and swelling.",
+    "task": "definition"
+  },
+  {
+    "question": "What is osteoarthritis?",
+    "answer": "Osteoarthritis is a degenerative joint disease characterized by gradual breakdown of cartilage in the joints.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of osteoarthritis?",
+    "answer": "Symptoms include joint pain that worsens with activity, stiffness after rest, reduced flexibility, and sometimes joint swelling.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes osteoarthritis?",
+    "answer": "Osteoarthritis is caused by wear and tear of joint cartilage, aging, joint injury, obesity, or repetitive stress on joints.",
+    "task": "causes"
+  },
+  {
+    "question": "How is osteoarthritis treated?",
+    "answer": "Treatment includes weight management, physical therapy, pain relievers, anti-inflammatory medications, and in severe cases joint replacement surgery.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain osteoarthritis in simple terms.",
+    "answer": "Osteoarthritis happens when the cushioning in your joints wears down over time.",
+    "task": "definition"
+  },
+  {
+    "question": "What is systemic lupus erythematosus?",
+    "answer": "Systemic lupus erythematosus is a chronic autoimmune disease that can affect the skin, joints, kidneys, brain, and other organs.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of lupus?",
+    "answer": "Symptoms include fatigue, joint pain, skin rash (often a butterfly-shaped rash on the face), fever, and organ involvement.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes lupus?",
+    "answer": "Lupus is caused by a combination of genetic, environmental, and hormonal factors that trigger an abnormal immune response.",
+    "task": "causes"
+  },
+  {
+    "question": "How is lupus treated?",
+    "answer": "Treatment includes immunosuppressive medications, corticosteroids, antimalarial drugs, and management of organ-specific complications.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain lupus in simple terms.",
+    "answer": "Lupus is a disease where the immune system attacks different parts of the body.",
+    "task": "definition"
+  },
+  {
+    "question": "What is gout?",
+    "answer": "Gout is a type of inflammatory arthritis caused by accumulation of uric acid crystals in the joints.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of gout?",
+    "answer": "Symptoms include sudden severe joint pain, redness, swelling, and warmth, often affecting the big toe.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes gout?",
+    "answer": "Gout is caused by elevated levels of uric acid in the blood, leading to crystal formation in joints.",
+    "task": "causes"
+  },
+  {
+    "question": "How is gout treated?",
+    "answer": "Treatment includes anti-inflammatory medications, colchicine, corticosteroids, and medications to lower uric acid levels.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain gout in simple terms.",
+    "answer": "Gout is a painful joint condition caused by a buildup of uric acid crystals.",
+    "task": "definition"
+  },
+  {
+    "question": "What is ankylosing spondylitis?",
+    "answer": "Ankylosing spondylitis is a chronic inflammatory disease that primarily affects the spine and sacroiliac joints.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of ankylosing spondylitis?",
+    "answer": "Symptoms include chronic back pain, stiffness that improves with exercise, reduced spinal flexibility, and fatigue.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is ankylosing spondylitis treated?",
+    "answer": "Treatment includes anti-inflammatory medications, biologic agents, physical therapy, and posture exercises.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain ankylosing spondylitis in simple terms.",
+    "answer": "Ankylosing spondylitis is a condition that causes long-term inflammation and stiffness in the spine.",
+    "task": "definition"
+  },
+  {
+    "question": "What is eczema?",
+    "answer": "Eczema, also known as atopic dermatitis, is a chronic inflammatory skin condition characterized by itching, redness, dryness, and skin irritation.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of eczema?",
+    "answer": "Symptoms include dry skin, intense itching, red or brownish patches, thickened skin, and sometimes fluid-filled blisters.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes eczema?",
+    "answer": "Eczema is caused by a combination of genetic predisposition, immune system dysfunction, and environmental triggers such as allergens or irritants.",
+    "task": "causes"
+  },
+  {
+    "question": "How is eczema treated?",
+    "answer": "Treatment includes moisturizers, topical corticosteroids, antihistamines, avoiding triggers, and in severe cases immunomodulatory therapy.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain eczema in simple terms.",
+    "answer": "Eczema is a skin condition that makes the skin dry, itchy, and irritated.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of psoriasis?",
+    "answer": "Symptoms include red patches of skin covered with silvery scales, itching, dryness, and sometimes joint pain.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain psoriasis in simple terms.",
+    "answer": "Psoriasis is a condition where the immune system makes skin cells grow too quickly, causing thick scaly patches.",
+    "task": "definition"
+  },
+  {
+    "question": "What is acne?",
+    "answer": "Acne is a common skin condition that occurs when hair follicles become clogged with oil and dead skin cells.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of acne?",
+    "answer": "Symptoms include pimples, blackheads, whiteheads, cysts, and sometimes scarring.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes acne?",
+    "answer": "Acne is caused by excess oil production, clogged pores, bacteria, hormonal changes, and inflammation.",
+    "task": "causes"
+  },
+  {
+    "question": "How is acne treated?",
+    "answer": "Treatment includes topical retinoids, benzoyl peroxide, antibiotics, hormonal therapy, and in severe cases isotretinoin.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain acne in simple terms.",
+    "answer": "Acne is a skin problem that causes pimples when pores get blocked.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of dermatitis?",
+    "answer": "Symptoms include rash, itching, redness, swelling, and sometimes blistering.",
+    "task": "symptoms"
+  },
+  {
+    "question": "Explain dermatitis in simple terms.",
+    "answer": "Dermatitis is skin inflammation that makes the skin red and itchy.",
+    "task": "definition"
+  },
+  {
+    "question": "What is melanoma?",
+    "answer": "Melanoma is a serious form of skin cancer that develops from pigment-producing cells called melanocytes.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of melanoma?",
+    "answer": "Symptoms include a changing mole, irregular borders, multiple colors, asymmetry, and increasing size.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes melanoma?",
+    "answer": "Melanoma is mainly caused by ultraviolet radiation exposure from the sun or tanning beds.",
+    "task": "causes"
+  },
+  {
+    "question": "How is melanoma treated?",
+    "answer": "Treatment includes surgical removal, immunotherapy, targeted therapy, radiation therapy, and chemotherapy depending on stage.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain melanoma in simple terms.",
+    "answer": "Melanoma is a dangerous type of skin cancer that can spread if not treated early.",
+    "task": "definition"
+  },
+  {
+    "question": "What is cancer?",
+    "answer": "Cancer is a group of diseases characterized by uncontrolled growth and spread of abnormal cells in the body.",
+    "task": "definition"
+  },
+  {
+    "question": "What causes cancer?",
+    "answer": "Cancer is caused by genetic mutations that may result from environmental exposures, tobacco use, radiation, infections, inherited mutations, or random cellular errors.",
+    "task": "causes"
+  },
+  {
+    "question": "What are the common symptoms of cancer?",
+    "answer": "Symptoms vary by type but may include unexplained weight loss, fatigue, persistent pain, abnormal bleeding, lumps, or changes in bowel or bladder habits.",
+    "task": "symptoms"
+  },
+  {
+    "question": "How is cancer treated?",
+    "answer": "Cancer treatment may include surgery, chemotherapy, radiation therapy, immunotherapy, targeted therapy, or a combination depending on type and stage.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain cancer in simple terms.",
+    "answer": "Cancer is a disease where some cells in the body grow out of control and can spread to other parts.",
+    "task": "definition"
+  },
+  {
+    "question": "What is breast cancer?",
+    "answer": "Breast cancer is a malignant tumor that develops from cells in the breast tissue.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of breast cancer?",
+    "answer": "Symptoms may include a breast lump, changes in breast shape, nipple discharge, skin dimpling, or redness.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What is lung cancer?",
+    "answer": "Lung cancer is a malignant tumor that begins in the tissues of the lungs, often associated with smoking.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of lung cancer?",
+    "answer": "Symptoms may include persistent cough, chest pain, shortness of breath, coughing up blood, and unexplained weight loss.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What is lymphoma?",
+    "answer": "Lymphoma is a cancer of the lymphatic system that affects lymphocytes, a type of white blood cell.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of lymphoma?",
+    "answer": "Symptoms may include swollen lymph nodes, fever, night sweats, weight loss, and fatigue.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What is chemotherapy?",
+    "answer": "Chemotherapy is a cancer treatment that uses drugs to kill rapidly dividing cancer cells.",
+    "task": "definition"
+  },
+  {
+    "question": "What is radiation therapy?",
+    "answer": "Radiation therapy uses high-energy radiation to destroy cancer cells and shrink tumors.",
+    "task": "definition"
+  },
+  {
+    "question": "What is immunotherapy in cancer treatment?",
+    "answer": "Immunotherapy is a treatment that helps the immune system recognize and attack cancer cells.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is metastasis?",
+    "answer": "Metastasis is the spread of cancer cells from the original tumor site to other parts of the body.",
+    "task": "definition"
+  },
+  {
+    "question": "What is tumor staging?",
+    "answer": "Tumor staging is the process of determining the size of a tumor and how far it has spread in the body.",
+    "task": "definition"
+  },
+  {
+    "question": "Explain metastasis in simple terms.",
+    "answer": "Metastasis means cancer has spread from where it started to other parts of the body.",
+    "task": "definition"
+  },
+  {
+    "question": "What are red flag symptoms in chest pain?",
+    "answer": "Red flag symptoms in chest pain include sudden severe pain, pain radiating to the arm or jaw, shortness of breath, sweating, nausea, fainting, or a history of heart disease. These may indicate a heart attack and require immediate medical attention.",
+    "task": "symptoms"
+  },
+  {
+    "question": "When is chest pain an emergency?",
+    "answer": "Chest pain is an emergency if it is severe, persistent, associated with shortness of breath, fainting, sweating, or radiating pain, as these may indicate myocardial infarction or pulmonary embolism.",
+    "task": "definition"
+  },
+  {
+    "question": "What are red flag symptoms in headache?",
+    "answer": "Red flags include sudden onset of the worst headache of life, neurological deficits, fever with neck stiffness, altered consciousness, head trauma, or headache in patients with cancer or immunosuppression.",
+    "task": "symptoms"
+  },
+  {
+    "question": "When is a headache an emergency?",
+    "answer": "A headache is an emergency if it is sudden and severe, associated with confusion, seizures, weakness, vision changes, or fever with stiff neck.",
+    "task": "definition"
+  },
+  {
+    "question": "What are red flag symptoms in abdominal pain?",
+    "answer": "Red flags include severe pain with guarding or rigidity, persistent vomiting, blood in stool or vomit, high fever, hypotension, or signs of shock.",
+    "task": "symptoms"
+  },
+  {
+    "question": "When is abdominal pain an emergency?",
+    "answer": "Abdominal pain is an emergency when it is severe, worsening, associated with fainting, bleeding, or signs of infection or shock.",
+    "task": "definition"
+  },
+  {
+    "question": "What are red flag symptoms in shortness of breath?",
+    "answer": "Red flags include sudden onset, chest pain, cyanosis, altered mental status, rapid breathing, or low oxygen levels.",
+    "task": "symptoms"
+  },
+  {
+    "question": "When is shortness of breath an emergency?",
+    "answer": "Shortness of breath is an emergency when it is severe, sudden, associated with chest pain, fainting, or signs of respiratory distress.",
+    "task": "definition"
+  },
+  {
+    "question": "What are red flag symptoms in fever?",
+    "answer": "Red flags include very high fever, confusion, stiff neck, rash with bleeding spots, difficulty breathing, or signs of dehydration in children or elderly patients.",
+    "task": "symptoms"
+  },
+  {
+    "question": "When is fever an emergency?",
+    "answer": "Fever is an emergency when accompanied by altered mental status, severe headache, stiff neck, difficulty breathing, or signs of sepsis.",
+    "task": "definition"
+  },
+  {
+    "question": "What are signs of stroke that require emergency care?",
+    "answer": "Signs include sudden weakness or numbness on one side of the body, difficulty speaking, vision loss, severe headache, or loss of balance. Immediate emergency evaluation is required.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What are signs of sepsis?",
+    "answer": "Signs include fever or low body temperature, rapid heart rate, rapid breathing, confusion, low blood pressure, and signs of organ dysfunction. Sepsis requires urgent medical treatment.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What are red flag symptoms in back pain?",
+    "answer": "Red flags include loss of bowel or bladder control, progressive weakness in the legs, history of cancer, unexplained weight loss, or severe trauma.",
+    "task": "symptoms"
+  },
+  {
+    "question": "When is back pain an emergency?",
+    "answer": "Back pain is an emergency when associated with neurological deficits, incontinence, severe trauma, or suspicion of spinal infection or malignancy.",
+    "task": "definition"
+  },
+  {
+    "question": "What are warning signs of anaphylaxis?",
+    "answer": "Warning signs include difficulty breathing, swelling of the face or throat, hives, rapid pulse, dizziness, and low blood pressure. Immediate emergency treatment is required.",
+    "task": "symptoms"
+  },
+  {
+    "question": "When should someone call emergency services immediately?",
+    "answer": "Emergency services should be called for symptoms such as chest pain, stroke signs, severe breathing difficulty, loss of consciousness, uncontrolled bleeding, seizures, or signs of severe allergic reaction.",
+    "task": "definition"
+  },
+  {
+    "question": "What is menopause?",
+    "answer": "Menopause is the natural permanent end of menstrual periods, usually occurring between ages 45 and 55, caused by a decline in ovarian hormone production.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of menopause?",
+    "answer": "Symptoms of menopause may include hot flashes, night sweats, mood changes, vaginal dryness, sleep disturbance, and irregular periods before they stop completely.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes menopause?",
+    "answer": "Menopause is caused by the natural decline in ovarian function and reduced production of estrogen and progesterone with age.",
+    "task": "causes"
+  },
+  {
+    "question": "How is menopause treated?",
+    "answer": "Treatment may include lifestyle measures, hormone replacement therapy in selected patients, and symptom-specific treatments such as vaginal moisturizers or non-hormonal medications.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain menopause in simple terms.",
+    "answer": "Menopause is the time in life when menstrual periods stop permanently because the ovaries stop making enough hormones. ######################################## ### A. SURGICAL PROCEDURES ########################################",
+    "task": "definition"
+  },
+  {
+    "question": "What is ORIF?",
+    "answer": "ORIF stands for open reduction and internal fixation, a surgical procedure used to repair severe fractures by aligning the bone and securing it with hardware such as plates or screws.",
+    "task": "definition"
+  },
+  {
+    "question": "What is laparoscopy?",
+    "answer": "Laparoscopy is a minimally invasive surgical procedure that uses a camera and small instruments inserted through small abdominal incisions.",
+    "task": "definition"
+  },
+  {
+    "question": "What is laparotomy?",
+    "answer": "Laparotomy is an open surgical procedure in which a large incision is made in the abdomen to access internal organs.",
+    "task": "definition"
+  },
+  {
+    "question": "What is appendectomy?",
+    "answer": "Appendectomy is the surgical removal of the appendix, usually performed to treat appendicitis. It prevents rupture and infection spread. Risks include infection and bleeding.",
+    "task": "definition"
+  },
+  {
+    "question": "What is cholecystectomy?",
+    "answer": "Cholecystectomy is surgical removal of the gallbladder, typically performed to treat gallstones or gallbladder inflammation. It is often done laparoscopically. Risks include bile duct injury and infection.",
+    "task": "definition"
+  },
+  {
+    "question": "What is hysterectomy?",
+    "answer": "Hysterectomy is surgical removal of the uterus. It is performed for conditions such as fibroids, cancer, or severe bleeding. Recovery varies depending on the surgical method.",
+    "task": "definition"
+  },
+  {
+    "question": "What is colectomy?",
+    "answer": "Colectomy is surgical removal of part or all of the colon. It is done for colon cancer, inflammatory bowel disease, or severe diverticulitis. Risks include infection and bowel complications.",
+    "task": "definition"
+  },
+  {
+    "question": "What is a biopsy?",
+    "answer": "A biopsy is a medical procedure in which a small tissue sample is removed for laboratory examination to diagnose disease, especially cancer.",
+    "task": "definition"
+  },
+  {
+    "question": "What is endoscopy?",
+    "answer": "Endoscopy is a procedure that uses a flexible tube with a camera to examine internal organs, commonly the digestive tract. It is used for diagnosis and sometimes treatment.",
+    "task": "definition"
+  },
+  {
+    "question": "What is colonoscopy?",
+    "answer": "Colonoscopy is an endoscopic procedure used to examine the colon and rectum for polyps, cancer, or inflammation. It allows biopsy or removal of abnormal tissue.",
+    "task": "definition"
+  },
+  {
+    "question": "What is C-section?",
+    "answer": "A C-section, or cesarean section, is surgical delivery of a baby through an incision in the abdomen and uterus. It is performed when vaginal delivery is unsafe.",
+    "task": "definition"
+  },
+  {
+    "question": "What is dilation and curettage?",
+    "answer": "Dilation and curettage, or D&C, is a procedure in which the cervix is dilated and tissue is removed from the uterus. It is done after miscarriage or for abnormal uterine bleeding. ######################################## ### B. IMAGING MODALITIES ########################################",
+    "task": "definition"
+  },
+  {
+    "question": "What is an X-ray?",
+    "answer": "An X-ray is an imaging test that uses radiation to produce images of bones and certain internal structures. It is commonly used to detect fractures and lung conditions.",
+    "task": "definition"
+  },
+  {
+    "question": "What is a CT scan?",
+    "answer": "A CT scan is an imaging test that uses X-rays and computer processing to create detailed cross-sectional images of the body.",
+    "task": "definition"
+  },
+  {
+    "question": "What is an MRI?",
+    "answer": "MRI, or magnetic resonance imaging, is a test that uses magnetic fields and radio waves to create detailed images of organs and soft tissues.",
+    "task": "definition"
+  },
+  {
+    "question": "What is ultrasound?",
+    "answer": "Ultrasound uses high-frequency sound waves to create images of internal organs. It does not use radiation and is commonly used in pregnancy.",
+    "task": "definition"
+  },
+  {
+    "question": "What is an echocardiogram?",
+    "answer": "An echocardiogram is a type of ultrasound that evaluates the structure and function of the heart.",
+    "task": "definition"
+  },
+  {
+    "question": "What is a mammogram?",
+    "answer": "A mammogram is an X-ray imaging test used to detect breast cancer. It uses low-dose radiation.",
+    "task": "definition"
+  },
+  {
+    "question": "What is a PET scan?",
+    "answer": "A PET scan uses radioactive tracers to assess metabolic activity in tissues, often used in cancer detection.",
+    "task": "definition"
+  },
+  {
+    "question": "What is Doppler ultrasound?",
+    "answer": "Doppler ultrasound measures blood flow through vessels using sound waves and does not use radiation.",
+    "task": "definition"
+  },
+  {
+    "question": "What is fluoroscopy?",
+    "answer": "Fluoroscopy is a real-time imaging technique that uses X-rays to observe movement inside the body.",
+    "task": "definition"
+  },
+  {
+    "question": "What is endoscopic ultrasound?",
+    "answer": "Endoscopic ultrasound combines endoscopy and ultrasound to obtain detailed images of digestive tract structures. ######################################## ### C. PHARMACOLOGY ########################################",
+    "task": "definition"
+  },
+  {
+    "question": "What is paracetamol?",
+    "answer": "Paracetamol, also called acetaminophen, is a medication used to reduce pain and fever. High doses may cause liver damage.",
+    "task": "definition"
+  },
+  {
+    "question": "What is ibuprofen?",
+    "answer": "Ibuprofen is a nonsteroidal anti-inflammatory drug used for pain, inflammation, and fever. It may cause stomach irritation or kidney effects.",
+    "task": "definition"
+  },
+  {
+    "question": "What is aspirin?",
+    "answer": "Aspirin is a medication used to reduce pain, fever, inflammation, and in some cases to reduce the risk of blood clots.",
+    "task": "definition"
+  },
+  {
+    "question": "What is amoxicillin?",
+    "answer": "Amoxicillin is an antibiotic used to treat bacterial infections. It may cause allergic reactions or gastrointestinal upset.",
+    "task": "definition"
+  },
+  {
+    "question": "What is metformin?",
+    "answer": "Metformin is a medication used to lower blood sugar levels, mainly in people with type 2 diabetes.",
+    "task": "definition"
+  },
+  {
+    "question": "What is insulin?",
+    "answer": "Insulin is a hormone and medication used to lower blood glucose levels, especially in diabetes.",
+    "task": "definition"
+  },
+  {
+    "question": "What is a statin?",
+    "answer": "A statin is a medication used to lower cholesterol levels and reduce cardiovascular risk.",
+    "task": "definition"
+  },
+  {
+    "question": "What is a beta blocker?",
+    "answer": "A beta blocker is a medication that slows heart rate and reduces blood pressure.",
+    "task": "definition"
+  },
+  {
+    "question": "What is an ACE inhibitor?",
+    "answer": "An ACE inhibitor is a medication that lowers blood pressure by relaxing blood vessels.",
+    "task": "definition"
+  },
+  {
+    "question": "What is an anticoagulant?",
+    "answer": "An anticoagulant is a medication that prevents blood clot formation but increases bleeding risk.",
+    "task": "definition"
+  },
+  {
+    "question": "What is a corticosteroid?",
+    "answer": "A corticosteroid is a medication that reduces inflammation and suppresses immune responses.",
+    "task": "definition"
+  },
+  {
+    "question": "What is a bronchodilator?",
+    "answer": "A bronchodilator is a medication that relaxes airway muscles to improve breathing in conditions like asthma.",
+    "task": "definition"
+  },
+  {
+    "question": "What is a proton pump inhibitor?",
+    "answer": "A proton pump inhibitor reduces stomach acid production and is used to treat reflux and ulcers. ######################################## ### D. EMERGENCY PROTOCOLS ########################################",
+    "task": "definition"
+  },
+  {
+    "question": "What is CPR?",
+    "answer": "CPR, or cardiopulmonary resuscitation, is an emergency procedure that combines chest compressions and rescue breathing to maintain circulation during cardiac arrest.",
+    "task": "definition"
+  },
+  {
+    "question": "What is an AED?",
+    "answer": "An AED, or automated external defibrillator, is a device that delivers an electric shock to restore normal heart rhythm during cardiac arrest.",
+    "task": "definition"
+  },
+  {
+    "question": "What is FAST stroke assessment?",
+    "answer": "FAST is a stroke screening tool that stands for Face drooping, Arm weakness, Speech difficulty, and Time to call emergency services.",
+    "task": "definition"
+  },
+  {
+    "question": "What is a sepsis protocol?",
+    "answer": "A sepsis protocol is a structured emergency treatment plan to rapidly diagnose and treat life-threatening infection.",
+    "task": "definition"
+  },
+  {
+    "question": "What is trauma protocol?",
+    "answer": "Trauma protocol refers to standardized emergency procedures for assessing and managing serious injuries.",
+    "task": "definition"
+  },
+  {
+    "question": "What is oxygen therapy?",
+    "answer": "Oxygen therapy involves providing supplemental oxygen to patients with low blood oxygen levels.",
+    "task": "definition"
+  },
+  {
+    "question": "What is triage?",
+    "answer": "Triage is the process of prioritizing patients based on the severity of their condition in emergency settings.",
+    "task": "definition"
+  },
+  {
+    "question": "What is airway management?",
+    "answer": "Airway management refers to medical techniques used to ensure an open airway for adequate breathing.",
+    "task": "definition"
+  },
+  {
+    "question": "What is intubation?",
+    "answer": "Intubation is the insertion of a tube into the airway to assist with breathing.",
+    "task": "definition"
+  },
+  {
+    "question": "What is defibrillation?",
+    "answer": "Defibrillation is the delivery of an electric shock to correct certain life-threatening heart rhythms. ######################################## ### E. LAB VALUES ########################################",
+    "task": "definition"
+  },
+  {
+    "question": "What is hemoglobin?",
+    "answer": "Hemoglobin is a protein in red blood cells that carries oxygen. Low levels suggest anemia; high levels may indicate dehydration or other conditions.",
+    "task": "definition"
+  },
+  {
+    "question": "What is creatinine?",
+    "answer": "Creatinine is a waste product measured in blood to assess kidney function. High levels suggest impaired kidney function.",
+    "task": "definition"
+  },
+  {
+    "question": "What does high creatinine mean?",
+    "answer": "High creatinine usually indicates reduced kidney function or kidney injury.",
+    "task": "definition"
+  },
+  {
+    "question": "What does low hemoglobin mean?",
+    "answer": "Low hemoglobin typically indicates anemia, which can cause fatigue and weakness. ######################################## ### F. OBSTETRICS & GYNECOLOGY ########################################",
+    "task": "definition"
+  },
+  {
+    "question": "What is endometriosis?",
+    "answer": "Endometriosis is a condition in which tissue similar to the uterine lining grows outside the uterus, causing pain and infertility.",
+    "task": "definition"
+  },
+  {
+    "question": "What is PCOS?",
+    "answer": "PCOS, or polycystic ovary syndrome, is a hormonal disorder characterized by irregular periods, excess androgen levels, and ovarian cysts.",
+    "task": "definition"
+  },
+  {
+    "question": "What is ectopic pregnancy?",
+    "answer": "An ectopic pregnancy occurs when a fertilized egg implants outside the uterus, usually in a fallopian tube. It is a medical emergency.",
+    "task": "definition"
+  },
+  {
+    "question": "What is preeclampsia?",
+    "answer": "Preeclampsia is a pregnancy complication characterized by high blood pressure and organ dysfunction.",
+    "task": "definition"
+  },
+  {
+    "question": "What is gestational diabetes?",
+    "answer": "Gestational diabetes is high blood sugar that develops during pregnancy and usually resolves after delivery. ######################################## ### OPHTHALMOLOGY ########################################",
+    "task": "definition"
+  },
+  {
+    "question": "Explain glaucoma in simple terms.",
+    "answer": "Glaucoma is an eye condition that can slowly damage the nerve needed for vision.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of glaucoma?",
+    "answer": "Symptoms may include loss of peripheral vision, blurred vision, eye pain, halos around lights, and in acute cases nausea and headache.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What is macular degeneration?",
+    "answer": "Macular degeneration is an eye disease that affects the macula, the central part of the retina responsible for sharp central vision.",
+    "task": "definition"
+  },
+  {
+    "question": "Explain macular degeneration in simple terms.",
+    "answer": "Macular degeneration is an eye condition that damages central vision and makes reading or recognizing faces harder.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of macular degeneration?",
+    "answer": "Symptoms include blurred central vision, distortion of straight lines, dark spots in central vision, and difficulty seeing fine detail.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes macular degeneration?",
+    "answer": "Macular degeneration is associated with aging, genetic factors, smoking, and damage to the retinal tissues of the macula.",
+    "task": "causes"
+  },
+  {
+    "question": "How is macular degeneration treated?",
+    "answer": "Treatment depends on the type and may include eye injections, laser treatment, and nutritional support to slow progression. ######################################## ### ORTHOPEDICS / TRAUMA ########################################",
+    "task": "treatment"
+  },
+  {
+    "question": "What is a fracture?",
+    "answer": "A fracture is a break or crack in a bone caused by trauma, stress, or disease weakening the bone.",
+    "task": "definition"
+  },
+  {
+    "question": "Explain fracture in simple terms.",
+    "answer": "A fracture means a bone has broken or cracked.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of a fracture?",
+    "answer": "Symptoms include pain, swelling, bruising, deformity, and difficulty moving or bearing weight on the injured area.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes a fracture?",
+    "answer": "Fractures are caused by trauma such as falls or accidents, repetitive stress, or conditions like osteoporosis that weaken bone.",
+    "task": "causes"
+  },
+  {
+    "question": "How is a fracture treated?",
+    "answer": "Treatment may include immobilization with a cast or splint, pain control, and sometimes surgery to realign and stabilize the bone.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is a sprain?",
+    "answer": "A sprain is an injury to a ligament caused by stretching or tearing, usually around a joint.",
+    "task": "definition"
+  },
+  {
+    "question": "Explain sprain in simple terms.",
+    "answer": "A sprain is when the strong tissue around a joint gets stretched or torn.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of a sprain?",
+    "answer": "Symptoms include pain, swelling, bruising, limited movement, and joint instability.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes a sprain?",
+    "answer": "Sprains are commonly caused by twisting, falling, sudden impact, or overstretching a joint.",
+    "task": "causes"
+  },
+  {
+    "question": "How is a sprain treated?",
+    "answer": "Treatment includes rest, ice, compression, elevation, pain relief, and in some cases physical therapy or bracing. ######################################## ### SURGICAL PROCEDURES ########################################",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain ORIF in simple terms.",
+    "answer": "ORIF is surgery to fix a broken bone using metal plates, screws, or rods.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of a condition requiring ORIF?",
+    "answer": "Conditions requiring ORIF may involve severe pain, swelling, deformity, inability to move the limb, and an unstable fracture.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes the need for ORIF?",
+    "answer": "ORIF is needed when a fracture is severe, displaced, unstable, or unlikely to heal properly with casting alone.",
+    "task": "causes"
+  },
+  {
+    "question": "How is ORIF treated?",
+    "answer": "ORIF itself is the treatment, and recovery includes wound care, pain control, rehabilitation, and gradual return to movement.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain laparoscopy in simple terms.",
+    "answer": "Laparoscopy is surgery done through small cuts using a camera instead of a large opening.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of a condition requiring laparoscopy?",
+    "answer": "Conditions requiring laparoscopy may involve abdominal pain, pelvic pain, suspected internal bleeding, infertility investigation, or gallbladder disease.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes the need for laparoscopy?",
+    "answer": "Laparoscopy is used to diagnose or treat abdominal and pelvic conditions such as endometriosis, appendicitis, gallstones, or ovarian cysts.",
+    "task": "causes"
+  },
+  {
+    "question": "How is laparoscopy treated?",
+    "answer": "Laparoscopy is the procedure itself, and recovery usually involves pain control, wound care, and short-term activity limitation.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain laparotomy in simple terms.",
+    "answer": "Laparotomy is open abdominal surgery done through a larger cut in the belly.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of a condition requiring laparotomy?",
+    "answer": "Conditions requiring laparotomy may involve severe abdominal pain, trauma, bowel obstruction, internal bleeding, or suspected perforation.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes the need for laparotomy?",
+    "answer": "Laparotomy is needed when a condition requires direct open surgical access to the abdominal organs, especially in emergencies or complex cases.",
+    "task": "causes"
+  },
+  {
+    "question": "How is laparotomy treated?",
+    "answer": "Laparotomy is the treatment procedure itself, followed by pain management, wound care, and recovery monitoring. ######################################## ### DIAGNOSTICS / IMAGING ########################################",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain CT scan in simple terms.",
+    "answer": "A CT scan is a detailed X-ray test that shows slices of the inside of the body.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of a condition requiring a CT scan?",
+    "answer": "Conditions requiring a CT scan may involve head injury, severe pain, suspected stroke, cancer evaluation, infection, or internal bleeding.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes the need for a CT scan?",
+    "answer": "A CT scan is used when doctors need detailed internal images to investigate trauma, disease, or abnormal findings.",
+    "task": "causes"
+  },
+  {
+    "question": "How is a CT scan used in treatment?",
+    "answer": "A CT scan supports diagnosis and treatment planning by helping identify the location and extent of disease or injury.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain MRI in simple terms.",
+    "answer": "MRI is a scan that uses magnets to create detailed pictures of the inside of the body.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of a condition requiring an MRI?",
+    "answer": "Conditions requiring MRI may involve persistent pain, neurological symptoms, soft tissue injury, spinal problems, or tumor assessment.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes the need for an MRI?",
+    "answer": "MRI is used when detailed soft tissue imaging is needed, especially for the brain, spine, joints, and internal organs.",
+    "task": "causes"
+  },
+  {
+    "question": "How is MRI used in treatment?",
+    "answer": "MRI helps guide diagnosis and treatment planning by showing detailed images of tissues and structures without using ionizing radiation. ######################################## ### LAB INTERPRETATION ########################################",
+    "task": "treatment"
+  },
+  {
+    "question": "What is troponin?",
+    "answer": "Troponin is a protein released into the blood when heart muscle is damaged, and it is commonly used to assess suspected heart attack.",
+    "task": "definition"
+  },
+  {
+    "question": "Explain troponin in simple terms.",
+    "answer": "Troponin is a blood test marker that can show whether the heart muscle has been injured.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of high troponin?",
+    "answer": "High troponin itself does not cause symptoms, but the underlying condition may cause chest pain, shortness of breath, sweating, or weakness.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes high troponin?",
+    "answer": "High troponin is commonly caused by heart muscle injury such as myocardial infarction, myocarditis, severe strain, or other cardiac conditions.",
+    "task": "causes"
+  },
+  {
+    "question": "How is high troponin treated?",
+    "answer": "Treatment depends on the underlying cause and may include emergency cardiac care, monitoring, medications, or further diagnostic evaluation.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is CRP?",
+    "answer": "CRP, or C-reactive protein, is a blood test marker that rises in response to inflammation or infection.",
+    "task": "definition"
+  },
+  {
+    "question": "Explain CRP in simple terms.",
+    "answer": "CRP is a blood test that helps show whether there is inflammation in the body.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of high CRP?",
+    "answer": "High CRP itself does not cause symptoms, but the underlying condition may cause fever, pain, swelling, fatigue, or signs of infection.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes high CRP?",
+    "answer": "High CRP is caused by inflammation, infection, autoimmune disease, tissue injury, or other inflammatory conditions.",
+    "task": "causes"
+  },
+  {
+    "question": "How is high CRP treated?",
+    "answer": "Treatment focuses on the underlying cause, such as infection, inflammation, or chronic disease, rather than the CRP value itself.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is D-dimer?",
+    "answer": "D-dimer is a blood test marker produced when blood clots are formed and broken down in the body.",
+    "task": "definition"
+  },
+  {
+    "question": "Explain D-dimer in simple terms.",
+    "answer": "D-dimer is a blood test that can suggest whether the body is forming and breaking down blood clots.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of high D-dimer?",
+    "answer": "High D-dimer itself does not cause symptoms, but conditions associated with it may cause chest pain, shortness of breath, leg swelling, or sudden illness.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes high D-dimer?",
+    "answer": "High D-dimer may be caused by blood clots, pulmonary embolism, deep vein thrombosis, recent surgery, infection, trauma, or inflammation.",
+    "task": "causes"
+  },
+  {
+    "question": "How is high D-dimer treated?",
+    "answer": "Treatment depends on the cause and may include further imaging, anticoagulation, or management of the underlying condition. ######################################## ### MEDICATIONS ########################################",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain aspirin in simple terms.",
+    "answer": "Aspirin is a medicine used for pain and sometimes to help prevent dangerous blood clots.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of aspirin side effects?",
+    "answer": "Aspirin side effects may include stomach pain, nausea, heartburn, bruising, or bleeding.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes aspirin to be prescribed?",
+    "answer": "Aspirin may be prescribed for pain relief, inflammation, fever, or prevention of heart attack and stroke in selected patients.",
+    "task": "causes"
+  },
+  {
+    "question": "How is aspirin used in treatment?",
+    "answer": "Aspirin is used as part of treatment depending on the condition, often for pain relief or as an antiplatelet medicine under medical guidance.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain metformin in simple terms.",
+    "answer": "Metformin is a diabetes medicine that helps reduce high blood sugar.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of metformin side effects?",
+    "answer": "Metformin side effects may include nausea, diarrhea, abdominal discomfort, and less commonly weakness or serious metabolic problems.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes metformin to be prescribed?",
+    "answer": "Metformin is prescribed to help manage type 2 diabetes and improve blood sugar control.",
+    "task": "causes"
+  },
+  {
+    "question": "How is metformin used in treatment?",
+    "answer": "Metformin is used as part of diabetes treatment together with diet, exercise, and sometimes other medications.",
+    "task": "treatment"
+  },
+  {
+    "question": "Explain insulin in simple terms.",
+    "answer": "Insulin is a medicine that helps move sugar from the blood into the body’s cells.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of insulin side effects?",
+    "answer": "Insulin side effects may include low blood sugar, sweating, shakiness, confusion, or weight gain.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes insulin to be prescribed?",
+    "answer": "Insulin is prescribed when the body does not produce enough insulin or cannot control blood sugar adequately without it.",
+    "task": "causes"
+  },
+  {
+    "question": "How is insulin used in treatment?",
+    "answer": "Insulin is used to control blood sugar in diabetes through carefully planned dosing and monitoring. ######################################## ### OBSTETRICS & GYNECOLOGY EXPANSION ########################################",
+    "task": "treatment"
+  },
+  {
+    "question": "What is an ectopic pregnancy?",
+    "answer": "An ectopic pregnancy is a pregnancy that implants outside the uterus, most commonly in a fallopian tube, and it can become a medical emergency.",
+    "task": "definition"
+  },
+  {
+    "question": "Explain ectopic pregnancy in simple terms.",
+    "answer": "An ectopic pregnancy is when a pregnancy grows in the wrong place, usually outside the womb.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of ectopic pregnancy?",
+    "answer": "Symptoms include abdominal or pelvic pain, vaginal bleeding, dizziness, shoulder pain, and in severe cases collapse from internal bleeding.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes ectopic pregnancy?",
+    "answer": "Ectopic pregnancy is associated with damage or blockage of the fallopian tubes, prior pelvic infection, previous ectopic pregnancy, or other risk factors.",
+    "task": "causes"
+  },
+  {
+    "question": "How is ectopic pregnancy treated?",
+    "answer": "Treatment may include medication such as methotrexate or surgery, depending on the location, size, and severity of the condition.",
+    "task": "treatment"
+  },
+  {
+    "question": "What are fibroids?",
+    "answer": "Fibroids are noncancerous growths of the uterus made of muscle and fibrous tissue.",
+    "task": "definition"
+  },
+  {
+    "question": "Explain fibroids in simple terms.",
+    "answer": "Fibroids are common noncancerous lumps that grow in or around the uterus.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of fibroids?",
+    "answer": "Symptoms may include heavy menstrual bleeding, pelvic pressure, abdominal swelling, pain, or urinary frequency.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes fibroids?",
+    "answer": "The exact cause is not fully known, but fibroids are influenced by hormones such as estrogen and genetic factors.",
+    "task": "causes"
+  },
+  {
+    "question": "How are fibroids treated?",
+    "answer": "Treatment may include observation, medications, minimally invasive procedures, or surgery depending on symptoms and severity.",
+    "task": "treatment"
+  },
+  {
+    "question": "What is miscarriage?",
+    "answer": "Miscarriage is the spontaneous loss of a pregnancy before the fetus is viable outside the uterus.",
+    "task": "definition"
+  },
+  {
+    "question": "Explain miscarriage in simple terms.",
+    "answer": "Miscarriage means a pregnancy ends naturally earlier than expected.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of miscarriage?",
+    "answer": "Symptoms may include vaginal bleeding, cramping, abdominal pain, and passage of tissue.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes miscarriage?",
+    "answer": "Miscarriage is commonly caused by chromosomal abnormalities, but it may also be associated with hormonal, structural, or medical factors.",
+    "task": "causes"
+  },
+  {
+    "question": "How is miscarriage treated?",
+    "answer": "Treatment may include observation, medication, or procedures to remove remaining tissue, depending on the situation. ######################################## ### EMERGENCY PRESENTATIONS ########################################",
+    "task": "treatment"
+  },
+  {
+    "question": "What is an emergency presentation?",
+    "answer": "An emergency presentation is a set of symptoms or signs that may indicate a serious condition requiring urgent medical assessment.",
+    "task": "definition"
+  },
+  {
+    "question": "Explain emergency presentation in simple terms.",
+    "answer": "An emergency presentation means symptoms are serious enough that urgent medical help may be needed.",
+    "task": "definition"
+  },
+  {
+    "question": "What are the symptoms of an emergency presentation?",
+    "answer": "Symptoms may include chest pain, severe shortness of breath, loss of consciousness, stroke-like symptoms, severe bleeding, or sudden severe pain.",
+    "task": "symptoms"
+  },
+  {
+    "question": "What causes an emergency presentation?",
+    "answer": "Emergency presentations can be caused by serious conditions such as heart attack, stroke, sepsis, pulmonary embolism, trauma, or internal bleeding.",
+    "task": "causes"
+  },
+  {
+    "question": "How is an emergency presentation treated?",
+    "answer": "Emergency presentations are treated by urgent medical evaluation, stabilization, and condition-specific emergency care.",
+    "task": "treatment"
   }
 ]
