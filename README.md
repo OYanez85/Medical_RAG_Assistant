@@ -155,13 +155,13 @@ External evaluation (ReputAgent) highlighted:
 ---
 
 ## 📁 Project Structure
-
+```
 backend/ → RAG engine, reasoning, safety
 scripts/ → training, dataset, serving
 data/ → QA datasets
 outputs/ → LoRA adapters (LFS)
 app.py → combined UI (RAG + LoRA)
-
+```
 
 ---
 
