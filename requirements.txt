@@ -1,8 +1,7 @@
-gradio==5.49.1
-sentence-transformers
-numpy
-pydantic
-scikit-learn
-fastapi
-uvicorn[standard]
-rank-bm25
+gradio
+transformers
+peft
+accelerate
+bitsandbytes
+sentencepiece
+torch
