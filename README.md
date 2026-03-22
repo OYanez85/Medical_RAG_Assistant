@@ -64,4 +64,139 @@ The system is designed to balance:
 ## 🏗️ Architecture
 
 ### High-level pipeline
+```
+User Question
+↓
+Safety Layer (emergency detection)
+↓
+Query Normalization + Task Detection
+↓
+───────────────
+RAG PATH
+───────────────
+Embeddings → Retrieval → Reranking → Answer
 
+───────────────
+LoRA PATH
+───────────────
+Prompt → Fine-tuned Model → Generated Answer
+
+ ↓
+
+Final Response
+```
+
+---
+
+## 🧪 Example Questions
+
+- What is pneumonia?
+- What are the complications of pulmonary embolism?
+- How is diabetes treated?
+- What causes asthma?
+- What is the difference between hypertension and hypotension?
+
+---
+
+## ⚠️ Safety Notice
+
+This project is for **educational and demonstration purposes only**.
+
+It is **NOT**:
+- a medical device  
+- a diagnostic tool  
+- a substitute for professional medical advice  
+
+If symptoms suggest an emergency, seek immediate medical attention.
+
+---
+
+## ⚠️ Known Limitations
+
+- Dataset-driven → limited coverage  
+- RAG can retrieve partially relevant content (semantic overlap issues)  
+- LoRA model may hallucinate without grounding  
+- Not connected to live clinical data (e.g. PubMed, EHR systems)  
+- Evaluation shows:
+  - repetition in responses  
+  - occasional off-topic retrieval (e.g. ORIF leakage)  
+  - improvement needed in grounding and citation  
+
+---
+
+## 📊 Evaluation Insights
+
+External evaluation (ReputAgent) highlighted:
+
+- Strong **consistency and safety patterns**
+- Weakness in:
+  - grounding  
+  - negotiation/general reasoning  
+  - topic adherence  
+
+👉 This project is actively evolving toward:
+- better task-aware routing  
+- hybrid RAG + generation  
+- improved grounding and citations  
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 3.12
+- Gradio
+- Transformers (Hugging Face)
+- PEFT (LoRA fine-tuning)
+- sentence-transformers
+- NumPy
+- PyTorch
+- FastAPI-ready backend
+
+---
+
+## 📁 Project Structure
+
+backend/ → RAG engine, reasoning, safety
+scripts/ → training, dataset, serving
+data/ → QA datasets
+outputs/ → LoRA adapters (LFS)
+app.py → combined UI (RAG + LoRA)
+
+
+---
+
+## ⚙️ Run Locally
+
+```bash
+git clone https://github.com/OYanez85/Medical_RAG_Assistant.git
+cd Medical_RAG_Assistant
+
+python -m venv .venv
+source .venv/bin/activate
+
+pip install -r requirements.txt
+
+python app.py
+```
+
+📈 Roadmap
+ Hybrid RAG + LoRA response synthesis
+ Citation-aware generation
+ PubMed integration (RAG upgrade)
+ Better evaluation pipeline
+ Reduced repetition + improved reasoning
+ Clinical task classification refinement
+💼 Portfolio Value
+
+This project demonstrates:
+
+End-to-end LLM system design
+RAG architecture with task-aware retrieval
+LoRA fine-tuning pipeline
+Deployment on Hugging Face Spaces
+Real-world evaluation and iteration
+Safety-aware AI engineering
+🤝 Author
+
+Oscar Yáñez-Feijoo
+Medical SME | AI Engineer | MSc Data Science & AI | Cybersecurity
