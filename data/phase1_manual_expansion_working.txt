@@ -1,0 +1,272 @@
+
+########################################
+### COMPLICATIONS EXPANSION PACK
+########################################
+
+### Instruction:
+What are the complications of pneumonia?
+
+### Response:
+Complications of pneumonia may include respiratory failure, pleural effusion, empyema, sepsis, lung abscess, and worsening of underlying medical conditions.
+
+### Instruction:
+What are the complications of pulmonary embolism?
+
+### Response:
+Complications of pulmonary embolism may include right heart strain, respiratory failure, shock, recurrent embolism, pulmonary hypertension, and sudden death in severe cases.
+
+### Instruction:
+What are the complications of hypertension?
+
+### Response:
+Complications of hypertension may include stroke, heart failure, kidney damage, coronary artery disease, vision loss, and peripheral vascular disease.
+
+### Instruction:
+What are the complications of hypotension?
+
+### Response:
+Complications of hypotension may include dizziness, fainting, falls, shock, reduced blood flow to organs, and organ damage in severe cases.
+
+### Instruction:
+What are the complications of myocardial infarction?
+
+### Response:
+Complications of myocardial infarction may include arrhythmias, heart failure, cardiogenic shock, recurrent ischemia, cardiac rupture, and sudden cardiac death.
+
+### Instruction:
+What are the complications of heart failure?
+
+### Response:
+Complications of heart failure may include fluid overload, kidney dysfunction, arrhythmias, liver congestion, thromboembolism, and reduced exercise tolerance.
+
+### Instruction:
+What are the complications of stroke?
+
+### Response:
+Complications of stroke may include paralysis, speech problems, swallowing difficulty, aspiration pneumonia, seizures, depression, and long-term disability.
+
+### Instruction:
+What are the complications of diabetes?
+
+### Response:
+Complications of diabetes may include kidney disease, nerve damage, eye disease, cardiovascular disease, foot ulcers, poor wound healing, and infections.
+
+### Instruction:
+What are the complications of chronic obstructive pulmonary disease?
+
+### Response:
+Complications of chronic obstructive pulmonary disease may include respiratory failure, recurrent lung infections, pulmonary hypertension, right heart strain, and reduced quality of life.
+
+### Instruction:
+What are the complications of asthma?
+
+### Response:
+Complications of asthma may include severe asthma attacks, respiratory failure, reduced oxygen levels, hospitalization, and airway remodeling in poorly controlled disease.
+
+### Instruction:
+What are the complications of pneumothorax?
+
+### Response:
+Complications of pneumothorax may include tension pneumothorax, respiratory distress, recurrence, low oxygen levels, and cardiovascular compromise in severe cases.
+
+### Instruction:
+What are the complications of tuberculosis?
+
+### Response:
+Complications of tuberculosis may include lung destruction, hemoptysis, pleural effusion, meningitis, spinal involvement, and spread of infection to other organs.
+
+### Instruction:
+What are the complications of dermatitis?
+
+### Response:
+Complications of dermatitis may include skin infection, thickened skin, sleep disturbance, chronic itching, and reduced quality of life.
+
+### Instruction:
+What are the complications of obesity?
+
+### Response:
+Complications of obesity may include type 2 diabetes, hypertension, cardiovascular disease, sleep apnea, fatty liver disease, and joint problems.
+
+### Instruction:
+What are the complications of appendicitis?
+
+### Response:
+Complications of appendicitis may include perforation, peritonitis, abscess formation, sepsis, and bowel obstruction.
+
+### Instruction:
+What are the complications of cholecystitis?
+
+### Response:
+Complications of cholecystitis may include gallbladder perforation, abscess, gangrene, peritonitis, and sepsis.
+
+### Instruction:
+What are the complications of pancreatitis?
+
+### Response:
+Complications of pancreatitis may include pseudocyst formation, necrosis, infection, shock, respiratory failure, and multi-organ failure.
+
+### Instruction:
+What are the complications of meningitis?
+
+### Response:
+Complications of meningitis may include seizures, hearing loss, cognitive impairment, shock, brain injury, and death in severe cases.
+
+### Instruction:
+What are the complications of sepsis?
+
+### Response:
+Complications of sepsis may include shock, multi-organ failure, disseminated intravascular coagulation, acute kidney injury, respiratory failure, and death.
+
+### Instruction:
+What are the complications of deep vein thrombosis?
+
+### Response:
+Complications of deep vein thrombosis may include pulmonary embolism, post-thrombotic syndrome, recurrent thrombosis, and chronic leg swelling or pain.
+
+### Instruction:
+What are the complications of atrial fibrillation?
+
+### Response:
+Complications of atrial fibrillation may include stroke, heart failure, thromboembolism, reduced exercise tolerance, and hemodynamic instability in severe cases.
+
+### Instruction:
+What are the complications of chronic kidney disease?
+
+### Response:
+Complications of chronic kidney disease may include fluid overload, electrolyte imbalance, anemia, bone disease, cardiovascular disease, and progression to kidney failure.
+
+### Instruction:
+What are the complications of liver cirrhosis?
+
+### Response:
+Complications of liver cirrhosis may include ascites, variceal bleeding, hepatic encephalopathy, spontaneous bacterial peritonitis, kidney dysfunction, and liver failure.
+
+### Instruction:
+What are the complications of gastroenteritis?
+
+### Response:
+Complications of gastroenteritis may include dehydration, electrolyte imbalance, kidney injury, malnutrition, and shock in severe cases.
+
+### Instruction:
+What are the complications of influenza?
+
+### Response:
+Complications of influenza may include pneumonia, dehydration, worsening of chronic medical conditions, respiratory failure, myocarditis, and secondary bacterial infection.
+
+### Instruction:
+What are the complications of COVID-19?
+
+### Response:
+Complications of COVID-19 may include pneumonia, respiratory failure, blood clots, myocarditis, long COVID symptoms, multi-organ injury, and death in severe cases.
+
+########################################
+### CORE COVERAGE PATCH
+########################################
+
+### Instruction:
+What is pneumonia?
+
+### Response:
+Pneumonia is an infection of the lungs caused by bacteria, viruses, or fungi that leads to inflammation of the air sacs.
+
+### Instruction:
+What are the symptoms of pneumonia?
+
+### Response:
+Symptoms of pneumonia include fever, cough, chest pain, shortness of breath, and fatigue.
+
+### Instruction:
+How is pneumonia treated?
+
+### Response:
+Treatment of pneumonia depends on the cause and may include antibiotics for bacterial pneumonia, antiviral treatment in some viral cases, supportive care, fluids, rest, and oxygen therapy when needed.
+
+### Instruction:
+What is pulmonary embolism?
+
+### Response:
+Pulmonary embolism is a blockage in one of the pulmonary arteries in the lungs, usually caused by a blood clot that travels from the deep veins of the legs.
+
+### Instruction:
+What are the symptoms of pulmonary embolism?
+
+### Response:
+Symptoms of pulmonary embolism include sudden shortness of breath, chest pain, rapid heart rate, dizziness, and sometimes coughing up blood.
+
+### Instruction:
+How is pulmonary embolism treated?
+
+### Response:
+Treatment of pulmonary embolism may include anticoagulation, thrombolytic therapy in severe cases, oxygen support, and treatment of the underlying source of the clot.
+
+### Instruction:
+What is diabetes?
+
+### Response:
+Diabetes is a chronic condition in which blood glucose levels are too high because the body does not produce enough insulin or cannot use insulin effectively.
+
+### Instruction:
+What are the symptoms of diabetes?
+
+### Response:
+Symptoms of diabetes may include increased thirst, frequent urination, increased hunger, fatigue, blurred vision, and slow wound healing.
+
+### Instruction:
+How is diabetes treated?
+
+### Response:
+Treatment of diabetes may include lifestyle changes, blood sugar monitoring, oral medications, insulin, and management of cardiovascular risk factors.
+
+### Instruction:
+What is hypertension?
+
+### Response:
+Hypertension is a condition in which blood pressure remains persistently elevated, increasing the risk of cardiovascular and kidney disease.
+
+### Instruction:
+What are the symptoms of hypertension?
+
+### Response:
+Hypertension is often asymptomatic, but some people may experience headache, dizziness, blurred vision, or nosebleeds.
+
+### Instruction:
+How is hypertension treated?
+
+### Response:
+Treatment of hypertension may include dietary changes, exercise, weight loss, reduced salt intake, and antihypertensive medications.
+
+### Instruction:
+What is stroke?
+
+### Response:
+Stroke is a medical emergency caused by interruption of blood flow to part of the brain or by bleeding in the brain, leading to neurological damage.
+
+### Instruction:
+What are the symptoms of stroke?
+
+### Response:
+Symptoms of stroke may include sudden weakness on one side, facial droop, speech difficulty, vision changes, dizziness, and loss of coordination.
+
+### Instruction:
+How is stroke treated?
+
+### Response:
+Treatment of stroke depends on the type and may include urgent reperfusion therapy for ischemic stroke, blood pressure control, supportive care, rehabilitation, and management of complications.
+
+### Instruction:
+What is myocardial infarction?
+
+### Response:
+Myocardial infarction, also called a heart attack, occurs when blood flow to part of the heart muscle is blocked, causing tissue damage.
+
+### Instruction:
+What are the symptoms of myocardial infarction?
+
+### Response:
+Symptoms of myocardial infarction may include chest pain or pressure, shortness of breath, sweating, nausea, pain radiating to the arm or jaw, and weakness.
+
+### Instruction:
+How is myocardial infarction treated?
+
+### Response:
+Treatment of myocardial infarction may include urgent reperfusion, antiplatelet therapy, anticoagulation, pain control, oxygen when indicated, and long-term cardiovascular risk management.

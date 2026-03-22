@@ -1,0 +1,11 @@
+question,expected_task,expected_match,expected_answer_contains,expect_safety
+What is pneumonia?,definition,What is pneumonia?,infection of the lungs,false
+What are the symptoms of pneumonia?,symptoms,What are the symptoms of pneumonia?,fever,false
+What causes hypertension?,causes,What causes hypertension?,salt intake,false
+How is pulmonary embolism treated?,treatment,How is pulmonary embolism treated?,anticoagulant,false
+What is the difference between hypertension and hypotension?,comparison,What is the difference between hypertension and hypotension?,blood pressure,false
+What is menopause?,definition,What is menopause?,menstrual,false
+What is heart attack?,definition,What is myocardial infarction?,heart attack,false
+I have chest pain and shortness of breath,safety,,urgent medical attention,true
+My father has slurred speech and one-sided weakness,safety,,urgent medical attention,true
+What is ORIF?,definition,What is ORIF?,fracture,false
